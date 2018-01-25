@@ -1,2 +1,5 @@
 TrialNumber,LeftAmount,RightAmount,LeftOption,RightOption,WhichSelected,RT,LeftDisplay,RightDisplay,WhichSelected,RT2,HowLongLearnDelay,HowLongToPressReceipt,WhatLearnedFactWas
-1,4,3,Share,Learn,Learn,0.53200006485,Do you like driving,Do you like Japanese comic books (manga),Learn,0.710000038147,N/A,1.22799992561,I like driving
+1,2,2,Share,Trivia,Trivia,0.68799996376,Science,Animals,Trivia,0.599999904633,N/A,0.230999946594,In the Caribbean there are oysters that can climb trees.
+2,4,3,Learn,Trivia,Trivia,0.0840001106262,Geography,Film/Movies,Trivia,0.599999904633,N/A,0.436000108719,The Lord of the Rings: The Return of the King won all 11 Academy Awards it was nominated for.
+3,3,2,Share,Trivia,Trivia,0.5,Geography,Animals,Trivia,0.848000049591,N/A,0.230999946594,A flock of crows is known as a murder.
+4,4,4,Share,Learn,Learn,0.291999816895,Do you like canoeing,Do you like painting,Learn,0.552000045776,N/A,0.411999940872,I like painting

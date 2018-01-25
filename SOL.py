@@ -79,6 +79,7 @@ computerConfirmation = visual.TextStim(win, text = 'Information read', pos = (0,
 connecting = visual.TextStim(win, text = 'Connecting...', pos = (0,.4), height = 0.13, color = 'Black', wrapWidth = 1.3)
 connectionLost = visual.TextStim(win, text = 'Connection to UT campus lost/n/nReconnecting...', pos = (0,.4), height = 0.13, color = 'Black', wrapWidth = 1.3)
 connectedTo = visual.TextStim(win, text = 'Connected to:\n     UT Lab', pos = (0,.5), height = 0.13, color = 'Black', wrapWidth = 1.3)
+connectingToPartner = visual.TextStim(win, text = 'Connecting to PARTNER NAME...', pos = (0,.5), height = 0.13, color = 'Black', wrapWidth = 1.3)
 eligiblePartners = visual.TextStim(win, text = 'Eligible Chat Partners:\n                2', pos = (0,.1), height = 0.13, color = 'Black')
 displayPartners = visual.TextStim(win, text = 'Display Chat Partners?\n      Yes            No', pos = (0,-.3), height = 0.13, color = 'Black')
 selectPartnerText = visual.TextStim(win, text = 'Please select your chat partner', pos = (0,.7), height = 0.07, color = 'Black', wrapWidth = 1.3)
@@ -500,12 +501,20 @@ def Trivia(questionNumber):
 
         #event.waitKeys()
 
-def Break():
+#Break function
+def Break():    #I would consider changing the background to something unique here
     
     headerText.text = "Great work! Press the spacebar to keep chatting"
     headerText.draw()
     win.flip()
     event.waitKeys(keyList = ["space"])
+
+def StartTrials():
+    headerText.text = "Press spacebar to begin chat"
+    headerText.draw()
+    win.flip()
+    event.waitKeys(keyList = ["space"])
+    
 #*******************************************************
 #               START MAIN PROGRAM                     *
 #*******************************************************
@@ -537,8 +546,10 @@ while True:
 
 
 PartnerSelection(sex)
-Connecting(connecting, 2)
+Connecting(connectingToPartner, 2)
 
+
+StartTrials()
 
 #   Begin Trials   #
 trialNumber = 1
@@ -548,7 +559,7 @@ while (trialNumber < 5): #195
     timer.reset()
     event_output = []
     
-    if trialNumber == 2 or trialNumber == 130:
+    if trialNumber == 65 or trialNumber == 130:
         Break()
     
     #Fixation before stimulus presentation: 
