@@ -500,6 +500,12 @@ def Trivia(questionNumber):
 
         #event.waitKeys()
 
+def Break():
+    
+    headerText.text = "Great work! Press the spacebar to keep chatting"
+    headerText.draw()
+    win.flip()
+    event.waitKeys(keyList = ["space"])
 #*******************************************************
 #               START MAIN PROGRAM                     *
 #*******************************************************
@@ -541,6 +547,9 @@ while (trialNumber < 5): #195
     trial_start = trialTimer.getTime()
     timer.reset()
     event_output = []
+    
+    if trialNumber == 2 or trialNumber == 130:
+        Break()
     
     #Fixation before stimulus presentation: 
     text.text = "+"
