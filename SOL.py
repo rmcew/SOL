@@ -84,9 +84,9 @@ displayPartners = visual.TextStim(win, text = 'Display Chat Partners?\n      Yes
 selectPartnerText = visual.TextStim(win, text = 'Please select your chat partner', pos = (0,.7), height = 0.07, color = 'Black', wrapWidth = 1.3)
 
 if str.lower(str(expInfo["Sex"])) == "m" or str.lower(str(expInfo["Sex"])) == "male":
-    sex = "female"
-if str.lower(str(expInfo["Sex"])) == "f" or str.lower(str(expInfo["Sex"])) == "female":
     sex = "male"
+if str.lower(str(expInfo["Sex"])) == "f" or str.lower(str(expInfo["Sex"])) == "female":
+    sex = "female"
 
 
 global WhichSelected
@@ -291,7 +291,7 @@ def Share(questionNumber):
         greenBubbleLeft.draw()
         leftBubbleText.draw()
         win.flip()
-        HowLongLearnDelay = random.uniform(1,3)
+        HowLongLearnDelay = random.uniform(1500,3)
         time.sleep(HowLongLearnDelay)
         
     if "m" in key_press:
@@ -307,7 +307,7 @@ def Share(questionNumber):
         greenBubbleLeft.draw()
         leftBubbleText.draw()
         win.flip()
-        HowLongLearnDelay = random.uniform(1,3)
+        HowLongLearnDelay = random.uniform(1500,3)
         time.sleep(HowLongLearnDelay)
 
     messageRead.draw()
@@ -567,9 +567,6 @@ while (trialNumber < 5): #195
     
     trialNumber = trialNumber + 1 
     questionNumber = questionNumber + 2
-
-
-
 
 
 
