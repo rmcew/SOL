@@ -1,0 +1,5 @@
+TrialNumber,LeftAmount,RightAmount,LeftOption,RightOption,WhichSelected,RT,LeftDisplay,RightDisplay,WhichSelected,RT2,HowLongLearnDelay,HowLongToPressReceipt,WhatLearnedFactWas
+1,4,3,Share,Trivia,Trivia,17.8090000153,History,Culture,Trivia,0.548000097275,N/A,2.0,Madarin Chinese is spoken by about one billion people.
+2,2,2,Share,Trivia,Trivia,0.359999895096,Geography,History,Trivia,0.776000022888,N/A,1.1850001812,Namibia in Southern Africa is the most sparsely populted country in the world.
+3,4,4,Share,Learn,Learn,0.272000074387,Do you like pop music,Do you have lots of friends,Learn,0.640000104904,N/A,0.319999933243,I have a fair number of friends
+4,2,1,Share,Learn,Share,0.364000082016,Whether I like swimming,Whether I belong to a religious body,Share,0.727999925613,2.14174888829,N/A,N/A

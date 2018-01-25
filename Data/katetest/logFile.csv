@@ -1,0 +1,4 @@
+,Trial,TrialStart,Stimulus,StimGender,Accuracy,RT,Response,CorrectResponse,Responses,TrialEnd
+0,1,9.2997,29.png,F,0,0.9162,aghast,reflective,"['aghast', 'impatient', 'reflective', 'irritated']",11.3482
+1,2,11.3545,27.png,F,0,0.4825,reassuring,cautious,"['joking', 'reassuring', 'arrogant', 'cautious']",12.9322
+2,3,12.9405,9.png,F,1,0.3483,preoccupied,preoccupied,"['hostile', 'annoyed', 'preoccupied', 'horrified']",14.3075
