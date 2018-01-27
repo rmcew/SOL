@@ -220,9 +220,15 @@ def MonetaryScreen(questionNumber):
     RT = timer_stop-timer_start
 
     if "z" in key_press:
+        leftChoiceText.draw()
+        win.flip()
+        time.sleep(1)
         MonetaryScreen.selected = leftChoice
         Choice(leftChoice, questionNumber)
     if "m" in key_press:
+        rightChoiceText.draw()
+        win.flip()
+        time.sleep(1)
         MonetaryScreen.selected = rightChoice
         Choice(rightChoice, questionNumber)
     if "escape" in key_press:
