@@ -1,5 +1,5 @@
 TrialNumber,LeftAmount,RightAmount,LeftOption,RightOption,WhichSelected,RT,LeftDisplay,RightDisplay,WhichSelected,RT2,HowLongLearnDelay,HowLongToPressReceipt,WhatLearnedFactWas
-1,2,2,Share,Trivia,Trivia,0.68799996376,Science,Animals,Trivia,0.599999904633,N/A,0.230999946594,In the Caribbean there are oysters that can climb trees.
-2,4,3,Learn,Trivia,Trivia,0.0840001106262,Geography,Film/Movies,Trivia,0.599999904633,N/A,0.436000108719,The Lord of the Rings: The Return of the King won all 11 Academy Awards it was nominated for.
-3,3,2,Share,Trivia,Trivia,0.5,Geography,Animals,Trivia,0.848000049591,N/A,0.230999946594,A flock of crows is known as a murder.
-4,4,4,Share,Learn,Learn,0.291999816895,Do you like canoeing,Do you like painting,Learn,0.552000045776,N/A,0.411999940872,I like painting
+1,4,2,Learn,Trivia,Learn,0.838000059128,Do you like to read,Do you have a car,Learn,0.553999900818,N/A,1.22399997711,I have a car
+2,1,3,Share,Learn,Share,0.463999986649,How much I love live music,Whether I like going to clubs,Share,0.763999938965,1.71019417859,N/A,N/A
+3,1,4,Learn,Trivia,Trivia,0.644000053406,Culture,Animals,Trivia,0.710999965668,N/A,0.697000026703,The 20th of March is known as Snowman Burning Day!
+4,2,4,Share,Trivia,Trivia,0.240000009537,Culture,History,Trivia,0.683000087738,N/A,0.579999923706,"In the UK, it is illegal to eat mince pies on Christmas Day."

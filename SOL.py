@@ -57,13 +57,17 @@ stim_shareQuestion = stim_shareQuestion.sample(frac=1).reset_index(drop=True)
 #Define text/visual stimuli and location 
 # Static Variables
 moneyScreenPrompt = visual.TextStim(win, text = 'Make a Choice:', pos = (0,.4), height = 0.13, color='Black', wrapWidth = 1.3) 
-headerText = visual.TextStim(win, pos = (0,0), height = 0.13, color='Black', wrapWidth = 1.3) 
+headerText = visual.TextStim(win, pos = (0,.5), height = 0.13, color='Black', wrapWidth = 1.3) 
 leftChoiceText = visual.TextStim(win, pos = (-.5, -.05), height = 0.05, color='Black', wrapWidth = 1.3) 
 leftBubbleText = visual.TextStim(win, pos = (-.51, 0), height = 0.05, color='Black', wrapWidth = .44) 
 rightBubbleText = visual.TextStim(win, pos = (.51, 0), height = 0.05, color='Black', wrapWidth = .44) 
 rightChoiceText = visual.TextStim(win, pos = (.5,-.05), height = 0.05, color='Black', wrapWidth = 1.3)
 leftValueText = visual.TextStim(win, pos = (-.5, -.11), height = 0.05, color='Black', wrapWidth = 1.3) 
 rightValueText = visual.TextStim(win, pos = (.5,-.11), height = 0.05, color='Black', wrapWidth = 1.3)
+topLeftText = visual.TextStim(win, pos = (-.5, .25), height = 0.05, color='Black', wrapWidth = 1.3, text = "1 = Select UT") 
+topRightText = visual.TextStim(win, pos = (.5,.25), height = 0.05, color='Black', wrapWidth = 1.3, text = "2 = Select UTSA")
+bottomLeftText = visual.TextStim(win, pos = (-.5, -.25), height = 0.05, color='Black', wrapWidth = 1.3, text = "3 = Select UNT") 
+bottomRightText = visual.TextStim(win, pos = (.5,-.25), height = 0.05, color='Black', wrapWidth = 1.3, text = "4 = Select Texas A&M")
 #partnerName = visual.TextStim(win, text = 'Make a Choice', pos = (0,.4), height = 0.06, color='Black', wrapWidth = 1.3, bold='True') 
 shareScreenPrompt = visual.TextStim(win, text = 'What do you want to tell PARTNER NAME about yourself?', pos = (0,.55), height = 0.13, color='Black', wrapWidth = 1.5, alignHoriz='center') 
 sendingMessage = visual.TextStim(win, text = 'Sending message...', pos = (0,.4), height = 0.13, color='Black', wrapWidth = 1.3) 
@@ -76,9 +80,9 @@ triviaScreenPrompt = visual.TextStim(win, text = 'WHAT DO YOU WANT TO KNOW ABOUT
 computerWaiting = visual.TextStim(win, text = 'COMPUTER FINDING FACT IN DATABASE...', pos = (0,.4), height = 0.13, color='Black', wrapWidth = 1.3) 
 computerMessageReceived = visual.TextStim(win, text = 'Press any key to confirm information read', pos = (0,-.4), height = 0.13, color='Black', wrapWidth = 1.3) 
 computerConfirmation = visual.TextStim(win, text = 'Information read', pos = (0,.4), height = 0.13, color='Black', wrapWidth = 1.3) 
-connecting = visual.TextStim(win, text = 'Connecting...', pos = (0,.4), height = 0.13, color = 'Black', wrapWidth = 1.3)
+connecting = visual.TextStim(win, pos = (0,.4), height = 0.13, color = 'Black', wrapWidth = 1.3)
 connectionLost = visual.TextStim(win, text = 'Connection to UT campus lost/n/nReconnecting...', pos = (0,.4), height = 0.13, color = 'Black', wrapWidth = 1.3)
-connectedTo = visual.TextStim(win, text = 'Connected to:\n     UT Lab', pos = (0,.5), height = 0.13, color = 'Black', wrapWidth = 1.3)
+connectedTo = visual.TextStim(win, pos = (0,.5), height = 0.13, color = 'Black', wrapWidth = 1.3)
 connectingToPartner = visual.TextStim(win, text = 'Connecting to PARTNER NAME...', pos = (0,.5), height = 0.13, color = 'Black', wrapWidth = 1.3)
 eligiblePartners = visual.TextStim(win, text = 'Eligible Chat Partners:\n                2', pos = (0,.1), height = 0.13, color = 'Black')
 displayPartners = visual.TextStim(win, text = 'Display Chat Partners?\n      Yes            No', pos = (0,-.3), height = 0.13, color = 'Black')
@@ -145,6 +149,29 @@ header = ['TrialNumber','LeftAmount','RightAmount','LeftOption','RightOption','W
 #*********************************************************
 #                       Functions                        *
 #*********************************************************
+
+#Select Campus
+def SelectCampus():
+    headerText.text = "Select University Chat Site"
+    headerText.draw()
+    topLeftText.draw()
+    topRightText.draw()
+    bottomLeftText.draw()
+    bottomRightText.draw()
+    win.flip()
+    key_press = event.waitKeys(keyList = ["1", "2", "3", "4"])
+    headerText.pos = (0,0)
+    if "1" in key_press:
+        location = "UT lab"
+    if "2" in key_press:
+        location = "UTSA lab"
+    if "3" in key_press:
+        location = "UNT lab"
+    if "4" in key_press:
+        location = "Texas A&M lab"
+    
+    return location
+
 
 #   Connecting Gif   #
 def Connecting(headerString, numberOfLoops):
@@ -292,7 +319,7 @@ def Share(questionNumber):
         greenBubbleLeft.draw()
         leftBubbleText.draw()
         win.flip()
-        HowLongLearnDelay = random.uniform(1500,3)
+        HowLongLearnDelay = random.uniform(1.5,3)
         time.sleep(HowLongLearnDelay)
         
     if "m" in key_press:
@@ -308,7 +335,7 @@ def Share(questionNumber):
         greenBubbleLeft.draw()
         leftBubbleText.draw()
         win.flip()
-        HowLongLearnDelay = random.uniform(1500,3)
+        HowLongLearnDelay = random.uniform(1.5,3)
         time.sleep(HowLongLearnDelay)
 
     messageRead.draw()
@@ -529,8 +556,12 @@ while True:
         break
         
         
+
 #Connected to Page:
+lab = SelectCampus()
+connecting.text = "Connecting to " + str(lab) + "..."
 Connecting(connecting, 3)
+connectedTo.text = 'Connected to:\n     ' + str(lab)
 connectedTo.draw()
 eligiblePartners.draw()
 displayPartners.draw()
