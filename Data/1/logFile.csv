@@ -1,5 +1,5 @@
 TrialNumber,LeftAmount,RightAmount,LeftOption,RightOption,WhichSelected,RT,LeftDisplay,RightDisplay,WhichSelected,RT2,HowLongLearnDelay,HowLongToPressReceipt,WhatLearnedFactWas
-1,3,3,Share,Trivia,Trivia,1.14899992943,People,Film/Movies,Trivia,0.631999969482,N/A,1.7650001049,Michael Myers mask in Halloween is just a Captain Kirk mask altered slightly and painted white.
-2,2,2,Share,Learn,Learn,0.823999881744,Do you like bugs,Do you like pop music,Learn,1.44899988174,N/A,1.24899983406,I don't like bugs
-3,2,4,Share,Trivia,Trivia,0.763999938965,Sport,History,Trivia,0.651999950409,N/A,0.595999956131,The men’s long jump world record has been broken once since 1969.
-4,2,2,Share,Learn,Learn,0.4359998703,Do you have an iPhone,Do you like tattoos,Learn,0.908999919891,N/A,2.27799987793,I own an iPhone
+1,4,2,Share,Learn,Learn,0.651000022888,Do you like canoeing,Do you like bugs,Learn,0.676000118256,N/A,0.628999948502,I like canoeing
+2,4,3,Share,Trivia,Trivia,0.427999973297,People,Science,Trivia,0.868000030518,N/A,2.19299983978,"In 1991, Wayne Allwine, the voice of Mickey Mouse, married Russi Taylor—the voice of Minnie."
+3,1,4,Learn,Trivia,Trivia,1.06100010872,People,Animals,Trivia,0.628000020981,N/A,0.603999853134,"The African American surgeon, Dr. Daniel Hale Williams, performed the first successful heart operation."
+4,2,2,Share,Trivia,Trivia,10.4110000134,Film/Movies,Animals,Trivia,0.655999898911,N/A,10.646999836,Squirrels forget where they hide about half of their nuts.

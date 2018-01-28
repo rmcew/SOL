@@ -58,6 +58,7 @@ stim_shareQuestion = stim_shareQuestion.sample(frac=1).reset_index(drop=True)
 # Static Variables
 moneyScreenPrompt = visual.TextStim(win, text = 'Make a Choice:', pos = (0,.4), height = 0.13, color='Black', wrapWidth = 1.3) 
 headerText = visual.TextStim(win, pos = (0,.5), height = 0.13, color='Black', wrapWidth = 1.3) 
+triviaText = visual.TextStim(win, pos = (0,-.3), height = 0.07, color='Black', wrapWidth = 1.3) 
 leftChoiceText = visual.TextStim(win, pos = (-.5, -.05), height = 0.05, color='Black', wrapWidth = 1.3) 
 leftBubbleText = visual.TextStim(win, pos = (-.51, 0), height = 0.05, color='Black', wrapWidth = .44) 
 rightBubbleText = visual.TextStim(win, pos = (.51, 0), height = 0.05, color='Black', wrapWidth = .44) 
@@ -512,7 +513,10 @@ def Trivia(questionNumber):
             computerWaiting.draw()
             win.flip()
             time.sleep(.5)
-            headerText.text = stim_trivia['TriviaFact'][questionNumber]        #replace index
+            triviaText.text = stim_trivia['TriviaFact'][questionNumber]        #replace index
+            triviaText.draw()
+            headerText.pos = (0, .4)
+            headerText.text = "Press any key to verify message read"
             headerText.draw()
             win.flip()
             timer_start = time.time()
@@ -527,7 +531,10 @@ def Trivia(questionNumber):
             computerWaiting.draw()
             win.flip()
             time.sleep(.5)
-            headerText.text = stim_trivia['TriviaFact'][questionNumber+1]        #replace index
+            triviaText.text = stim_trivia['TriviaFact'][questionNumber+1]        #replace index
+            triviaText.draw()
+            headerText.pos = (0, .4)
+            headerText.text = "Press any key to verify message read"
             headerText.draw()
             win.flip()
             time.sleep(.5)
@@ -538,7 +545,16 @@ def Trivia(questionNumber):
             WhatLearnedFactWas = stim_trivia['TriviaFact'][questionNumber+1]
             
         if "escape" in key_press:
-            core.quit()    
+            core.quit()
+        
+        headerText.pos = (0,0)
+        headerText.text = "Information Received"
+        headerText.draw()
+        win.flip()
+        time.sleep(1)
+        
+        
+
 
         #event.waitKeys()
 
