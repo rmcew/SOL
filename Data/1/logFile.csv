@@ -1,5 +1,5 @@
 TrialNumber,LeftAmount,RightAmount,LeftOption,RightOption,WhichSelected,RT,LeftDisplay,RightDisplay,WhichSelected,RT2,HowLongLearnDelay,HowLongToPressReceipt,WhatLearnedFactWas
-1,4,3,Learn,Trivia,Learn,0.667999982834,Do you have piercings,Do you like swimming,Learn,1.17200016975,N/A,1.84800004959,I like swimming
-2,1,3,Share,Trivia,Trivia,0.628999948502,Do you have piercings,Do you like swimming,Trivia,1.17200016975,N/A,1.84800004959,I like swimming
-3,3,1,Learn,Trivia,Trivia,3.16399979591,Animals,Science,Trivia,0.924000024796,N/A,0.0520000457764,Bananas are curved because they grow towards the sun.
-4,3,1,Share,Learn,Learn,0.543999910355,Do you have a car,Do you like to read,Learn,0.848000049591,N/A,5.82800006866,I have a car
+1,3,3,Share,Trivia,Trivia,1.14899992943,People,Film/Movies,Trivia,0.631999969482,N/A,1.7650001049,Michael Myers mask in Halloween is just a Captain Kirk mask altered slightly and painted white.
+2,2,2,Share,Learn,Learn,0.823999881744,Do you like bugs,Do you like pop music,Learn,1.44899988174,N/A,1.24899983406,I don't like bugs
+3,2,4,Share,Trivia,Trivia,0.763999938965,Sport,History,Trivia,0.651999950409,N/A,0.595999956131,The men’s long jump world record has been broken once since 1969.
+4,2,2,Share,Learn,Learn,0.4359998703,Do you have an iPhone,Do you like tattoos,Learn,0.908999919891,N/A,2.27799987793,I own an iPhone

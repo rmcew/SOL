@@ -220,15 +220,19 @@ def MonetaryScreen(questionNumber):
     RT = timer_stop-timer_start
 
     if "z" in key_press:
+        #Display only the selected choice for 1 second
         leftChoiceText.draw()
         win.flip()
         time.sleep(1)
+        
         MonetaryScreen.selected = leftChoice
         Choice(leftChoice, questionNumber)
     if "m" in key_press:
+        #Display only the selected choice for 1 second
         rightChoiceText.draw()
         win.flip()
         time.sleep(1)
+        
         MonetaryScreen.selected = rightChoice
         Choice(rightChoice, questionNumber)
     if "escape" in key_press:
@@ -348,6 +352,7 @@ def Share(questionNumber):
     greenBubbleLeft.draw()
     blueBubbleRight.draw()
     rightBubbleText.draw()
+    checkmarkIcon.pos = (-.52, -.3)
     checkmarkIcon.draw()
     win.flip()
     time.sleep(1.2)
@@ -445,11 +450,14 @@ def Learn(questionNumber):
     
     
     greenBubbleLeft.draw()
+    blueBubbleRight.pos = (.52, -.6) #Temporarily move blue bubble down
     blueBubbleRight.draw()
-    rightBubbleText.draw()
+    leftBubbleText.draw()
+    checkmarkIcon.pos = (.52, -.6)
     checkmarkIcon.draw()
     
     win.flip()
+    blueBubbleRight.pos = (.52, 0) #Put blue bubble back in correct place
     time.sleep(1.5)
     
         
