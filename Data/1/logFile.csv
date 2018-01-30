@@ -1,5 +1,5 @@
 TrialNumber,LeftAmount,RightAmount,LeftOption,RightOption,WhichSelected,RT,LeftDisplay,RightDisplay,WhichSelected,RT2,HowLongLearnDelay,HowLongToPressReceipt,WhatLearnedFactWas
-1,4,2,Share,Learn,Learn,0.651000022888,Do you like canoeing,Do you like bugs,Learn,0.676000118256,N/A,0.628999948502,I like canoeing
-2,4,3,Share,Trivia,Trivia,0.427999973297,People,Science,Trivia,0.868000030518,N/A,2.19299983978,"In 1991, Wayne Allwine, the voice of Mickey Mouse, married Russi Taylor—the voice of Minnie."
-3,1,4,Learn,Trivia,Trivia,1.06100010872,People,Animals,Trivia,0.628000020981,N/A,0.603999853134,"The African American surgeon, Dr. Daniel Hale Williams, performed the first successful heart operation."
-4,2,2,Share,Trivia,Trivia,10.4110000134,Film/Movies,Animals,Trivia,0.655999898911,N/A,10.646999836,Squirrels forget where they hide about half of their nuts.
+1,4,2,Learn,Trivia,Trivia,1.00099992752,Science,Animals,Trivia,0.887000083923,N/A,0.477999925613,"A ""jiffy"" is an actual unit of time: 1/100th of a second."
+2,3,2,Share,Learn,Share,0.335000038147,How much I like chocolate,Whether I have lots of friends,Share,0.657999992371,2.0361516821,N/A,N/A
+3,4,2,Share,Trivia,Share,0.235999822617,Whether I have good eyesight,Whether I like painting,Share,0.697000026703,2.82028108054,N/A,N/A
+4,3,2,Share,Trivia,Share,0.210000038147,Whether I have piercings,Whether I own an iPhone,Share,1.03600001335,2.62564652956,N/A,N/A

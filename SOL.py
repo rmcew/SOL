@@ -40,6 +40,7 @@ stim_trivia = stim_df[['ItemNumber','TriviaFact', 'TriviaQuestion']]
 stim_learn = stim_df[['ItemNumber','LearnFact', 'LearnQuestion']]
 stim_shareQuestion = stim_df[['ItemNumber','ShareQuestion']]
 
+
 '''
 for i in range(len(stim_df)):
     stim_df['Stimulus'][i] = os.path.join(cwd + "/Pictures/%s.png" % i) #Input picture pathway to each row
@@ -84,16 +85,22 @@ computerConfirmation = visual.TextStim(win, text = 'Information read', pos = (0,
 connecting = visual.TextStim(win, pos = (0,.4), height = 0.13, color = 'Black', wrapWidth = 1.3)
 connectionLost = visual.TextStim(win, text = 'Connection to UT campus lost/n/nReconnecting...', pos = (0,.4), height = 0.13, color = 'Black', wrapWidth = 1.3)
 connectedTo = visual.TextStim(win, pos = (0,.5), height = 0.13, color = 'Black', wrapWidth = 1.3)
-connectingToPartner = visual.TextStim(win, text = 'Connecting to PARTNER NAME...', pos = (0,.5), height = 0.13, color = 'Black', wrapWidth = 1.3)
+connectingToPartner = visual.TextStim(win, pos = (0,.5), height = 0.13, color = 'Black', wrapWidth = 1.3)
 eligiblePartners = visual.TextStim(win, text = 'Eligible Chat Partners:\n                2', pos = (0,.1), height = 0.13, color = 'Black')
 displayPartners = visual.TextStim(win, text = 'Display Chat Partners?\n      Yes            No', pos = (0,-.3), height = 0.13, color = 'Black')
-selectPartnerText = visual.TextStim(win, text = 'Please select your chat partner', pos = (0,.7), height = 0.07, color = 'Black', wrapWidth = 1.3)
+selectPartnerText = visual.TextStim(win, text = 'Please select your chat partner', pos = (0,.7), height = 0.13, color = 'Black', wrapWidth = 1.3)
+leftPartnerText = visual.TextStim(win, pos = (-.4, .3), height = 0.07, color = "Black", wrapWidth = 1.3)
+rightPartnerText = visual.TextStim(win, pos = (.4, .3), height = 0.07, color = "Black", wrapWidth = 1.3)
 
 if str.lower(str(expInfo["Sex"])) == "m" or str.lower(str(expInfo["Sex"])) == "male":
+    partnerList = pd.read_csv('PartnerNamesMale.csv')
     sex = "male"
 if str.lower(str(expInfo["Sex"])) == "f" or str.lower(str(expInfo["Sex"])) == "female":
+    partnerList = pad.read_csv('PartnerNamesFemale.csv')
     sex = "female"
-
+    
+#Randomize partner list
+partnerList = partnerList.sample(frac=1).reset_index(drop=True) 
 
 global WhichSelected
 global RT
@@ -160,8 +167,10 @@ def SelectCampus():
     bottomLeftText.draw()
     bottomRightText.draw()
     win.flip()
-    key_press = event.waitKeys(keyList = ["1", "2", "3", "4"])
+    key_press = event.waitKeys(keyList = ["escape","1", "2", "3", "4"])
     headerText.pos = (0,0)
+    if "escape" in key_press:
+        core.quit()
     if "1" in key_press:
         location = "UT lab"
     if "2" in key_press:
@@ -216,9 +225,12 @@ def MonetaryScreen(questionNumber):
     #moneyScreenPrompt.draw()
     #win.flip()
     #while True:
-    key_press = event.waitKeys(keyList = ["z","m"])
+    key_press = event.waitKeys(keyList = ["escape","z","m"])
     timer_stop = time.time()
     RT = timer_stop-timer_start
+    
+    if "escape" in key_press:
+        core.quit()
 
     if "z" in key_press:
         #Display only the selected choice for 1 second
@@ -236,9 +248,6 @@ def MonetaryScreen(questionNumber):
         
         MonetaryScreen.selected = rightChoice
         Choice(rightChoice, questionNumber)
-    if "escape" in key_press:
-        core.quit()
-            
     
 
 def Choice(choice, questionNumber):
@@ -254,28 +263,30 @@ def Choice(choice, questionNumber):
         Trivia(questionNumber)
 
 #   Partner Selection   # Remember to put a sex bool as parameter
-def PartnerSelection(sex):
-    picPath = os.path.join(cwd + "\\Pictures\\faces\\" + sex + "\\")
-    fileList = os.listdir(picPath)
-    randomPicLeft = random.choice(fileList)
-    fileList.remove(randomPicLeft)
-    randomPicRight = random.choice(fileList)
-
-    
-    leftPartnerImg.image = "Pictures\\faces\\" + sex + "\\" + randomPicLeft
-    rightPartnerImg.image = "Pictures\\faces\\" + sex + "\\" + randomPicRight
+def PartnerSelection(sex):    
+    leftPartnerImg.image = partnerList['PictureFileName'][1]
+    rightPartnerImg.image = partnerList['PictureFileName'][2]
+    leftPartnerText.text = str(partnerList['PersonName'][1]) + ' (' + str(partnerList['PersonAge'][1]) + ')'
+    rightPartnerText.text = str(partnerList['PersonName'][2]) + ' (' + str(partnerList['PersonAge'][2]) + ')'
+    rightPartnerAge = partnerList['PersonAge'][2]
     selectPartnerText.draw()
     leftPartnerImg.draw()
     rightPartnerImg.draw()
+    leftPartnerText.draw()
+    rightPartnerText.draw()
     win.flip()
     while True:
-        theseKeys = event.getKeys()
+        theseKeys = event.waitKeys(keyList = ['escape', 'z', 'm'])
         if "escape" in theseKeys:
             core.quit()
+        if 'z' in theseKeys:
+            partnerName = str(partnerList['PersonName'][1])
+        if 'm' in theseKeys:
+            partnerName = str(partnerList['PersonName'][2])
         if len(theseKeys):
             break
-    
-    #rightPartnerImg.draw()
+    #Set partner name for "connecting to" screen
+    connectingToPartner.text = 'Connecting to ' + partnerName +'...'
     
 
 #   Share Category   #
@@ -314,9 +325,12 @@ def Share(questionNumber):
     win.flip()
     
     
-    key_press = event.waitKeys(keyList = ["z","m"])
+    key_press = event.waitKeys(keyList = ["escape","z","m"])
     timer_stop = time.time()
     RT2 = timer_stop-timer_start
+    
+    if "escape" in key_press:
+        core.quit()
     if "z" in key_press:
         Share.selected = "Left"
         WhichSelected2 = Share.leftChoice
@@ -357,12 +371,7 @@ def Share(questionNumber):
     checkmarkIcon.draw()
     win.flip()
     time.sleep(1.2)
-        
-        
-    if "escape" in key_press:
-        core.quit()
-    
-    #event.waitKeys()
+
 
 
 #   Learn Category   #
@@ -399,9 +408,12 @@ def Learn(questionNumber):
     win.flip()
     
     
-    key_press = event.waitKeys(keyList = ["z","m"])
+    key_press = event.waitKeys(keyList = ["escape","z","m"])
     timer_stop = time.time()
     RT2 = timer_stop-timer_start
+    
+    if "escape" in key_press:
+        core.quit()
     if "z" in key_press:
         Learn.selected = "Left"
         WhichSelected2 = Learn.leftChoice
@@ -461,11 +473,6 @@ def Learn(questionNumber):
     blueBubbleRight.pos = (.52, 0) #Put blue bubble back in correct place
     time.sleep(1.5)
     
-        
-    if "escape" in key_press:
-        core.quit()
-    
-    #event.waitKeys()
 
 #   Trivia Category  #
 def Trivia(questionNumber):
@@ -504,9 +511,13 @@ def Trivia(questionNumber):
         win.flip()
         
         
-        key_press = event.waitKeys(keyList = ["z","m"])
+        key_press = event.waitKeys(keyList = ["escape","z","m"])
         timer_stop = time.time()
         RT2 = timer_stop-timer_start
+        
+        if "escape" in key_press:
+            core.quit()
+            
         if "z" in key_press:
             Trivia.selected = "Left"
             WhichSelected2 = Trivia.leftChoice
@@ -543,9 +554,6 @@ def Trivia(questionNumber):
             timer_stop = time.time()
             HowLongToPressReceipt    = timer_stop - timer_start
             WhatLearnedFactWas = stim_trivia['TriviaFact'][questionNumber+1]
-            
-        if "escape" in key_press:
-            core.quit()
         
         headerText.pos = (0,0)
         headerText.text = "Information Received"
