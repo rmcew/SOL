@@ -493,8 +493,9 @@ def Trivia(questionNumber):
     leftBubbleText.pos = (-.52, 0)
     timer_start = time.time()
     
-    if stim_trivia['TriviaQuestion'][questionNumber] == stim_trivia['TriviaQuestion'][questionNumber+1]:
-        Connecting(connectionLost, 2)
+    #Lost connection screen if duplicate trivia categories
+    #if stim_trivia['TriviaQuestion'][questionNumber] == stim_trivia['TriviaQuestion'][questionNumber+1]: 
+        #Connecting(connectionLost, 2)
     else:
         win.setColor((248, 203, 173), 'rgb255')
         
