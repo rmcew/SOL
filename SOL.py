@@ -95,9 +95,11 @@ rightPartnerText = visual.TextStim(win, pos = (.4, .3), height = 0.07, color = "
 if str.lower(str(expInfo["Sex"])) == "m" or str.lower(str(expInfo["Sex"])) == "male":
     partnerList = pd.read_csv('PartnerNamesMale.csv')
     sex = "male"
-if str.lower(str(expInfo["Sex"])) == "f" or str.lower(str(expInfo["Sex"])) == "female":
+elif str.lower(str(expInfo["Sex"])) == "f" or str.lower(str(expInfo["Sex"])) == "female":
     partnerList = pad.read_csv('PartnerNamesFemale.csv')
     sex = "female"
+else:
+    raise ValueError("Please enter M or F in the sex field")
     
 #Randomize partner list
 partnerList = partnerList.sample(frac=1).reset_index(drop=True) 
@@ -141,10 +143,10 @@ if not os.path.exists(fileLocation):
     os.makedirs(fileLocation)
 os.chdir(fileLocation)
 
-#UNCOMMENT WHEN READY #
-#if os.path.isfile("logFile.csv"):
-#    raise ValueError ("A log and stat file already exist for this participant")
-    
+#Checks to see if this participant ID has been used before. Comment out while testing
+if os.path.isfile("logFile.csv"):
+    raise ValueError ("A log and stat file already exist for this participant")
+
 os.chdir(owd)
 
 #List and Panda File Header:
