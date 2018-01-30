@@ -1,0 +1,5 @@
+TrialNumber,LeftAmount,RightAmount,LeftOption,RightOption,WhichSelected,RT,LeftDisplay,RightDisplay,WhichSelected,RT2,HowLongLearnDelay,HowLongToPressReceipt,WhatLearnedFactWas
+1,4,4,Learn,Trivia,Learn,0.90499997139,Do you like bugs,Do you like to go to clubs,Do you like to go to clubs,3.26300001144,N/A,1.92599987984,I don't like going to clubs
+2,4,1,Learn,Trivia,Trivia,2.03900003433,Film/Movies,Geography,Geography,0.960000038147,N/A,0.169999837875,Canada has more than half of all the natural lakes in the world.
+3,2,1,Share,Learn,Share,1.56599998474,Whether I like trying new foods,Whether I like trying new foods,Whether I like trying new foods,1.28699994087,2.15900326422,N/A,N/A
+4,4,3,Learn,Trivia,Learn,0.90900015831,Do you like hiking,Do you like body piercings,Do you like hiking,2.93600010872,N/A,1.42899990082,I like hiking

@@ -71,13 +71,13 @@ topRightText = visual.TextStim(win, pos = (.5,.25), height = 0.05, color='Black'
 bottomLeftText = visual.TextStim(win, pos = (-.5, -.25), height = 0.05, color='Black', wrapWidth = 1.3, text = "3 = Select UNT") 
 bottomRightText = visual.TextStim(win, pos = (.5,-.25), height = 0.05, color='Black', wrapWidth = 1.3, text = "4 = Select Texas A&M")
 #partnerName = visual.TextStim(win, text = 'Make a Choice', pos = (0,.4), height = 0.06, color='Black', wrapWidth = 1.3, bold='True') 
-shareScreenPrompt = visual.TextStim(win, text = 'What do you want to tell PARTNER NAME about yourself?', pos = (0,.55), height = 0.13, color='Black', wrapWidth = 1.5, alignHoriz='center') 
+shareScreenPrompt = visual.TextStim(win, pos = (0,.55), height = 0.13, color='Black', wrapWidth = 1.5, alignHoriz='center') 
 sendingMessage = visual.TextStim(win, text = 'Sending message...', pos = (0,.4), height = 0.13, color='Black', wrapWidth = 1.3) 
-partnerReading = visual.TextStim(win, text = 'PARTNER NAME is reading...', pos = (0,0), height = 0.13, color='Black', wrapWidth = 1.3) 
+partnerReading = visual.TextStim(win, pos = (0,0), height = 0.13, color='Black', wrapWidth = 1.3) 
 messageRead = visual.TextStim(win, text = 'Message read', pos = (0,.4), height = 0.13, color='Black', wrapWidth = 1.3) 
-learnScreenPrompt = visual.TextStim(win, text = 'PARTNER NAME asks: What do you want to learn about me?', pos = (0,.4), height = 0.13, color='Black', wrapWidth = 1.5, alignHoriz='center') 
+learnScreenPrompt = visual.TextStim(win, pos = (0,.4), height = 0.13, color='Black', wrapWidth = 1.5, alignHoriz='center') 
 waitingToLearn = visual.TextStim(win, text = 'Waiting for message', pos = (0,0), height = 0.13, color='Black', wrapWidth = 1.3) 
-messageReceived = visual.TextStim(win, text = 'Press SPACEBAR to let PARTNER NAME know that you received the message', pos = (0,.4), height = 0.13, color='Black', wrapWidth = 1.3) 
+messageReceived = visual.TextStim(win, pos = (0,.4), height = 0.13, color='Black', wrapWidth = 1.3) 
 triviaScreenPrompt = visual.TextStim(win, text = 'WHAT DO YOU WANT TO KNOW ABOUT?', pos = (0,.4), height = 0.13, color='Black', wrapWidth = 1.3) 
 computerWaiting = visual.TextStim(win, text = 'COMPUTER FINDING FACT IN DATABASE...', pos = (0,.4), height = 0.13, color='Black', wrapWidth = 1.3) 
 computerMessageReceived = visual.TextStim(win, text = 'Press any key to confirm information read', pos = (0,-.4), height = 0.13, color='Black', wrapWidth = 1.3) 
@@ -289,6 +289,10 @@ def PartnerSelection(sex):
             break
     #Set partner name for "connecting to" screen
     connectingToPartner.text = 'Connecting to ' + partnerName +'...'
+    partnerReading.text = partnerName + ' is reading...'
+    learnScreenPrompt.text = partnerName + ' asks: What do you want to learn about me?'
+    shareScreenPrompt.text = 'What do you want to tell ' + partnerName + ' about yourself?'
+    messageReceived.text = 'Press SPACEBAR to let ' + partnerName + ' know that you received the message'
     
 
 #   Share Category   #
