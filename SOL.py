@@ -96,10 +96,10 @@ if str.lower(str(expInfo["Sex"])) == "m" or str.lower(str(expInfo["Sex"])) == "m
     partnerList = pd.read_csv('PartnerNamesMale.csv')
     sex = "male"
 elif str.lower(str(expInfo["Sex"])) == "f" or str.lower(str(expInfo["Sex"])) == "female":
-    partnerList = pad.read_csv('PartnerNamesFemale.csv')
+    partnerList = pd.read_csv('PartnerNamesFemale.csv')
     sex = "female"
 else:
-    raise ValueError("Please enter M or F in the sex field")
+    raise ValueError("Please enter M or F in the sex field") #Throw error if invalid input
     
 #Randomize partner list
 partnerList = partnerList.sample(frac=1).reset_index(drop=True) 
@@ -649,7 +649,7 @@ while (trialNumber < 5): #195
     run_param_list.append([trialNumber,stim_monetaryCombination['LeftAmount'][questionNumber],
     stim_monetaryCombination['RightAmount'][questionNumber],stim_monetaryCombination['LeftCategory'][questionNumber],
     stim_monetaryCombination['RightCategory'][questionNumber], WhichSelected,RT,LeftDisplay,RightDisplay,
-    WhichSelected,RT2,HowLongLearnDelay,HowLongToPressReceipt,WhatLearnedFactWas])
+    WhichSelected2,RT2,HowLongLearnDelay,HowLongToPressReceipt,WhatLearnedFactWas])
     
     print run_param_list
     
