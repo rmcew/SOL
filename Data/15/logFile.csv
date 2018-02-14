@@ -1,0 +1,5 @@
+TrialNumber,LeftAmount,RightAmount,LeftOption,RightOption,WhichSelected,RT,LeftDisplay,RightDisplay,WhichSelected,RT2,HowLongLearnDelay,HowLongToPressReceipt,WhatLearnedFactWas
+1,4,4,Share,Learn,Share,0.751000165939,Whether I like swimming,Whether I like building things,Whether I like building things,0.780999898911,2.90514248442,N/A,N/A
+2,4,3,Learn,Trivia,Trivia,0.25,Animals,Film/Movies,Film/Movies,0.828999996185,N/A,0.134000062943,Alfred Hitchcock came under CIA sureveillance for his use of uranium as a plot element in Notorious.
+3,3,2,Share,Learn,Share,0.576999902725,Whether I own an iPhone,Whether I like trying new foods,Whether I own an iPhone,0.645000219345,1.80719648084,N/A,N/A
+4,4,4,Share,Learn,Learn,0.421000003815,Do you like to go to clubs,Do you like canoeing,Do you like canoeing,0.641999959946,N/A,1.92100000381,I like canoeing

@@ -1,0 +1,65 @@
+TrialNumber,LeftAmount,RightAmount,LeftOption,RightOption,WhichSelected,RT,LeftDisplay,RightDisplay,WhichSelected,RT2,HowLongLearnDelay,HowLongToPressReceipt,WhatLearnedFactWas
+1,1,4,Learn,Trivia,Trivia,0.358000040054,Geography,Animals,Geography,0.456000089645,N/A,0.59700012207,China and Russia are both bordered by 14 countries.
+2,3,2,Learn,Trivia,Trivia,0.339999914169,Science,Film/Movies,Film/Movies,0.839999914169,N/A,0.986000061035,"Jim Caviezel was struck by lightening while he was on the cross in, Passion of the Christ."
+3,3,2,Share,Trivia,Trivia,0.460999965668,Geography,People,Geography,0.662000179291,N/A,0.759999990463,South America's Andes is the longest mountain range in the world.
+4,1,3,Learn,Trivia,Trivia,0.473999977112,Animals,Animals,Animals,0.943000078201,N/A,0.441999912262,The most venomous jellyfish in the world is named the Irukandji and is smaller than your fingernail.
+5,3,2,Share,Learn,Learn,0.374000072479,Do you like chocolate,Do you like pop music,Do you like pop music,1.14700007439,N/A,0.416000127792,I like pop music
+6,4,1,Learn,Trivia,Learn,0.128999948502,Do you have a car,Do you like body piercings,Do you like body piercings,0.453999996185,N/A,0.309000015259,I like body piercings
+7,4,4,Share,Trivia,Trivia,0.322000026703,People,Animals,Animals,0.859999895096,N/A,0.59099984169,An eagle can kill a young deer and fly away with it.
+8,4,3,Learn,Trivia,Learn,0.406999826431,Do you have a car,Do you have hobbies,Do you have hobbies,1.02300000191,N/A,0.268999814987,I have many hobbies
+9,1,1,Share,Trivia,Share,0.268000125885,How much I like chocolate,Whether I like tattoos,Whether I like tattoos,0.582999944687,2.9118325114,N/A,N/A
+10,3,2,Share,Trivia,Share,0.319000005722,Whether I have lots of friends,Whether I like building things,Whether I have lots of friends,0.706999778748,1.98482402229,N/A,N/A
+11,2,2,Share,Trivia,Trivia,1.26200008392,Geography,Culture,Culture,0.594000101089,N/A,0.0950000286102,There are no clocks in Las Vegas casinos.
+12,3,3,Share,Learn,Share,0.194000005722,Whether I like my job,Whether I have piercings,Whether I have piercings,0.577000141144,2.70476760199,N/A,N/A
+13,3,1,Learn,Trivia,Trivia,1.3900001049,Culture,Culture,Culture,1.34599995613,N/A,1.20299983025,"Every day, Americans eat an estimated 18 acres of pizza."
+14,3,2,Share,Trivia,Share,0.386999845505,Whether I like to read,Whether I like building things,Whether I like building things,1.47399997711,2.66976684111,N/A,N/A
+15,1,3,Share,Learn,Share,5.78699994087,Whether I have a car,Whether I like painting,Whether I like painting,0.667999982834,1.77279100096,N/A,N/A
+16,1,4,Share,Learn,Learn,0.875999927521,Do you like building things,Do you have good eyesight,Do you like building things,0.727999925613,N/A,0.874000072479,I like building things
+17,2,1,Share,Learn,Learn,0.928000211716,Do you like bugs,Do you like bugs,Do you like bugs,3.54600000381,N/A,0.564999818802,I don't like bugs
+18,1,1,Learn,Trivia,Trivia,4.24900007248,Animals,Animals,Animals,4.15700006485,N/A,3.89400005341,"A youep, a duck and a rooster were the first passengers in a hot air balloon."
+19,4,3,Learn,Trivia,Trivia,0.973999977112,Film/Movies,Animals,Animals,0.895999908447,N/A,4.34299993515,Polar bears can eat as many as 86 penguins in a single sitting. (If they lived in the same place)
+20,4,4,Learn,Trivia,Trivia,0.878999948502,Science,People,Science,0.661000013351,N/A,2.5119998455,Human saliva has a boiling point three times that of regular water.
+21,4,4,Share,Learn,Share,0.274999856949,Whether I like hiking,Whether I like bugs,Whether I like bugs,1.15400004387,1.53823047911,N/A,N/A
+22,2,1,Share,Learn,Learn,1.51399993896,Do you have an instagram account,Do you like bicycling,Do you have an instagram account,0.556999921799,N/A,3.57899999619,I have an instagram account
+23,3,2,Share,Trivia,Trivia,0.151999950409,Animals,Culture,Animals,0.481000185013,N/A,0.267999887466,A hippo can open its mouth wide enough to fit a 4 foot tall child inside.
+24,3,1,Share,Trivia,Share,0.450999975204,Whether I have an instagram account,Whether I like Japanese comic books,Whether I have an instagram account,0.426999807358,2.27456188197,N/A,N/A
+25,4,3,Share,Learn,Learn,0.0339999198914,Do you belong to a religious body,Do you have an iPhone,Do you belong to a religious body,0.901999950409,N/A,2.61599993706,I belong to a religious body
+26,1,4,Share,Trivia,Share,0.255000114441,Whether I own an iPhone,Whether I like going to the movies,Whether I like going to the movies,0.506000041962,2.75457038681,N/A,N/A
+27,1,1,Share,Trivia,Share,0.205999851227,How much I like chocolate,Whether I like going to clubs,How much I like chocolate,0.429999828339,2.10949811759,N/A,N/A
+28,3,3,Learn,Trivia,Learn,0.149999856949,Do you like hiking,Do you have a car,Do you like hiking,0.598999977112,N/A,0.404000043869,I like hiking
+29,4,2,Share,Trivia,Trivia,0.388000011444,Science,Film/Movies,Science,1.99099993706,N/A,2.09500002861,"During your lifetime, you will produce enough saliva to fill two swimming pools."
+30,2,1,Share,Learn,Learn,0.175000190735,Do you like pop music,Do you like dessert,Do you like pop music,0.615000009537,N/A,1.10099983215,I like pop music
+31,3,2,Learn,Trivia,Learn,0.15700006485,Do you like to go to clubs,Do you like to exercise,Do you like to exercise,1.04600000381,N/A,1.07100009918,I absolutely like to exercise
+32,1,3,Share,Trivia,Share,0.1859998703,Whether I have hobbies,How much I like to exercise,How much I like to exercise,0.986999988556,2.12430039681,N/A,N/A
+33,1,1,Learn,Trivia,Learn,0.327999830246,Do you belong to a religious body,Do you have an instagram account,Do you have an instagram account,0.762000083923,N/A,2.86600017548,I have an instagram account
+34,4,3,Share,Trivia,Share,0.153000116348,Whether I like Japanese comic books,Whether I like hiking,Whether I like Japanese comic books,0.871999979019,2.17818299078,N/A,N/A
+35,1,4,Share,Trivia,Trivia,1.38499999046,People,Animals,People,0.704999923706,N/A,0.424000024796,Ben & Jerry learned how to make ice cream by taking a $5 correspondence course offered by Penn State.
+36,4,1,Share,Trivia,Trivia,1.38300013542,History,Film/Movies,History,0.790000200272,N/A,1.53399991989,The first alarm clock could only ring at 4am.
+37,3,2,Share,Learn,Learn,0.436000108719,Do you like tattoos,Do you like Japanese comic books (manga),Do you like Japanese comic books (manga),0.690999984741,N/A,1.18899989128,I don't like Japanese comic books
+38,4,1,Share,Trivia,Share,0.171000003815,Whether I have piercings,Whether I belong to a religious body,Whether I belong to a religious body,2.22300004959,2.01064322636,N/A,N/A
+39,3,3,Share,Trivia,Share,0.0729999542236,Whether I like tattoos,Whether I like driving,Whether I like tattoos,1.04100012779,1.88347890465,N/A,N/A
+40,1,4,Share,Trivia,Trivia,0.299999952316,Animals,History,History,0.722999811172,N/A,0.0409998893738,Kleenex tissues were originally used as filters in gas masks.
+41,3,2,Learn,Trivia,Learn,0.324000120163,Do you like trying new foods,Do you like trying new foods,Do you like trying new foods,0.726999998093,N/A,2.04800009727,I like trying new foods
+42,1,3,Share,Learn,Share,0.366000175476,Whether I belong to a religious body,Whether I like painting,Whether I like painting,0.891999959946,2.93747210828,N/A,N/A
+43,1,4,Share,Trivia,Share,0.327999830246,Whether I like bicycling,Whether I like my job,Whether I like my job,1.04600000381,1.98850242772,N/A,N/A
+44,1,1,Share,Learn,Learn,0.335000038147,Do you like Japanese comic books (manga),Do you like bugs,Do you like bugs,1.91499996185,N/A,3.88999986649,I don't like bugs
+45,2,2,Learn,Trivia,Learn,0.446000099182,Do you like to travel,Do you like cooking,Do you like to travel,0.804000139236,N/A,1.55999994278,I like to travel
+46,3,2,Learn,Trivia,Learn,0.322999954224,Do you like bicycling,Do you like your job,Do you like your job,0.976999998093,N/A,0.834000110626,I like my job
+47,4,3,Learn,Trivia,Learn,0.308000087738,Do you like to go to clubs,Do you like driving,Do you like to go to clubs,0.802000045776,N/A,1.17399978638,I don't like going to clubs
+48,3,3,Share,Learn,Learn,4.04400014877,Do you like cooking,Do you have piercings,Do you like cooking,0.831000089645,N/A,0.948000192642,I absolutely like cooking
+49,3,3,Share,Learn,Share,0.259999990463,Whether I like bugs,Whether I have a savings account,Whether I have a savings account,0.547999858856,1.79818321825,N/A,N/A
+50,4,3,Share,Trivia,Trivia,0.707000017166,Culture,Animals,Culture,0.623000144958,N/A,2.01399993896,About 80 percent of the world’s Indigenous people live in Asia and South East Asia.
+51,1,4,Share,Learn,Learn,0.504999876022,Do you like chocolate,Do you have an iPhone,Do you have an iPhone,0.473999977112,N/A,0.707000017166,I own an iPhone
+52,2,4,Share,Learn,Share,0.256999969482,Whether I like bicycling,Whether I have hobbies,Whether I have hobbies,0.905999898911,2.50703455063,N/A,N/A
+53,3,2,Share,Learn,Share,0.0880000591278,Whether I like painting,Whether I have a car,Whether I have a car,0.891999959946,2.12647964647,N/A,N/A
+54,3,2,Share,Trivia,Share,0.125999927521,Whether I like going to clubs,Whether I like popo music,Whether I like popo music,0.616000175476,1.94213750465,N/A,N/A
+55,4,3,Learn,Trivia,Learn,0.266000032425,Do you like coffee,Do you like camping,Do you like camping,0.898000001907,N/A,0.822000026703,I like camping
+56,4,1,Share,Trivia,Share,0.181999921799,Whether I like hiking,Whether I have a car,Whether I have a car,0.772000074387,2.74113799837,N/A,N/A
+57,4,4,Share,Trivia,Trivia,1.40499997139,People,Animals,People,0.694000005722,N/A,0.669000148773,Disney animators used Marilyn Monroe's body as the model for Tinkerbell.
+58,1,3,Share,Learn,Learn,0.690999984741,Do you have piercings,Do you have a savings account,Do you have piercings,0.710999965668,N/A,0.647000074387,I don't have piercings
+59,2,1,Learn,Trivia,Learn,0.226999998093,Do you like hiking,Do you have piercings,Do you have piercings,1.06699991226,N/A,0.396000146866,I don't have piercings
+60,3,2,Share,Trivia,Trivia,0.27799987793,Geography,Geography,Geography,0.664000034332,N/A,0.395999908447,The total number of steps in the Eiffel Tower are 1665.
+61,4,1,Learn,Trivia,Learn,0.318000078201,Do you like body piercings,Do you like canoeing,Do you like body piercings,0.813999891281,N/A,0.985999822617,I like body piercings
+62,1,4,Share,Learn,Learn,0.34700012207,Do you like chocolate,Do you like live music,Do you like live music,1.03299999237,N/A,0.697999954224,I love live music
+63,3,2,Learn,Trivia,Learn,0.369999885559,Do you like Japanese comic books (manga),Do you like driving,Do you like driving,0.924000024796,N/A,0.422999858856,I like driving
+64,3,2,Share,Trivia,Share,0.466000080109,Whether I like to read,Whether I belong to a religious body,Whether I belong to a religious body,1.01800012589,2.13298123059,N/A,N/A

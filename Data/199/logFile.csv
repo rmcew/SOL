@@ -1,0 +1,73 @@
+TrialNumber,LeftAmount,RightAmount,LeftOption,RightOption,WhichSelected,RT,LeftDisplay,RightDisplay,WhichSelected,RT2,HowLongLearnDelay,HowLongToPressReceipt,WhatLearnedFactWas
+1,3,1,Share,Trivia,Trivia,0.561000108719,History,Animals,History,0.539000034332,N/A,1.44600009918,The Titanic was the first ship to use the SOS signal.
+2,2,2,Learn,Trivia,Trivia,0.529000043869,Animals,Culture,Culture,0.978999853134,N/A,0.263999938965,There are no clocks in Las Vegas casinos.
+3,4,1,Share,Trivia,Share,0.618999958038,Whether I own an iPhone,Whether I like my job,Whether I like my job,1.08999991417,1.52468724194,N/A,N/A
+4,1,4,Share,Trivia,Trivia,0.799999952316,Culture,Geography,Geography,1.10199999809,N/A,0.283999919891,Antartica is home to almost all of the world's freshwater.
+5,1,4,Learn,Trivia,Trivia,0.0300002098083,Geography,Film/Movies,Geography,0.6859998703,N/A,0.302999973297,Antartica is home to almost all of the world's freshwater.
+6,4,3,Learn,Trivia,Learn,0.544000148773,Do you like your job,Do you have good eyesight,Do you like your job,0.495000123978,N/A,0.971999883652,I like my job
+7,1,4,Share,Learn,Learn,0.0940001010895,Do you have good eyesight,Do you like dessert,Do you have good eyesight,0.660000085831,N/A,0.205000162125,I have good eyesight
+8,1,3,Share,Trivia,Share,0.170000076294,Whether I like my job,Whether I like swimming,Whether I like swimming,0.698999881744,1.6790110431,N/A,N/A
+9,4,4,Share,Trivia,Share,0.428999900818,Whether I like swimming,Whether I like bicycling,Whether I like swimming,0.726999998093,2.74360277623,N/A,N/A
+10,1,3,Share,Trivia,Trivia,0.128000020981,Film/Movies,People,Film/Movies,0.513000011444,N/A,0.273000001907,"For the 1939 movie ""Gone with the Wind"" 1,400 actresses were interviewed for the part of Scarlett."
+11,3,2,Share,Trivia,Trivia,0.444000005722,People,Animals,Animals,0.557999849319,N/A,0.768999814987,There has never been a verified snow leopard attack on a human being.
+12,4,3,Learn,Trivia,Trivia,0.291999816895,Animals,Film/Movies,Animals,0.694000005722,N/A,0.217000007629,There has never been a verified snow leopard attack on a human being.
+13,1,1,Share,Learn,Learn,0.286000013351,Do you like dessert,Do you have hobbies,Do you like dessert,0.565999984741,N/A,0.256000041962,I like dessert
+14,2,1,Share,Trivia,Trivia,0.276999950409,Film/Movies,Animals,Animals,0.547000169754,N/A,1.71599984169,An eagle can kill a young deer and fly away with it.
+15,3,2,Learn,Trivia,Trivia,18.9839999676,Animals,Culture,Animals,0.568000078201,N/A,0.634000062943,An eagle can kill a young deer and fly away with it.
+16,1,1,Share,Learn,Learn,0.278000116348,Do you have hobbies,Do you like chocolate,Do you have hobbies,0.631000041962,N/A,0.408999919891,I have many hobbies
+17,4,4,Share,Learn,Learn,0.225999832153,Do you like chocolate,Do you like dessert,Do you like chocolate,0.796999931335,N/A,0.0450000762939,I like chocolate
+18,3,1,Share,Learn,Share,0.40499997139,Whether I like bicycling,Whether I like driving,Whether I like bicycling,0.658000230789,1.72518304038,N/A,N/A
+19,4,3,Learn,Trivia,Learn,0.0490000247955,Do you like dessert,Do you like to travel,Do you like dessert,1.44000005722,N/A,0.282999992371,I like dessert
+20,2,2,Learn,Trivia,Trivia,0.292999982834,Culture,Animals,Culture,0.717000007629,N/A,0.256999969482,About 80 percent of the world’s Indigenous people live in Asia and South East Asia.
+21,1,3,Share,Learn,Share,0.200000047684,Whether I like driving,How much I like cooking,Whether I like driving,0.739000082016,2.05808876039,N/A,N/A
+22,2,2,Share,Learn,Share,0.53200006485,How much I like cooking,Whether I like trying new foods,Whether I like trying new foods,1.32999992371,2.70687896977,N/A,N/A
+23,1,3,Share,Learn,Learn,0.542999982834,Do you like to travel,Do you like trying new foods,Do you like trying new foods,0.516000032425,N/A,1.20399999619,I like trying new foods
+24,3,2,Share,Learn,Learn,0.0480000972748,Do you like trying new foods,Do you like bugs,Do you like bugs,0.519999980927,N/A,0.72000002861,I don't like bugs
+25,2,2,Share,Trivia,Trivia,0.410000085831,Animals,Geography,Geography,0.635999917984,N/A,0.095999956131,Nauru is the only nation that has no official capital.
+26,1,4,Learn,Trivia,Trivia,0.220999956131,Geography,Sport,Geography,0.720999956131,N/A,0.412999868393,Nauru is the only nation that has no official capital.
+27,2,2,Share,Learn,Learn,0.269999980927,Do you like bugs,Do you like Japanese comic books (manga),Do you like Japanese comic books (manga),0.515000104904,N/A,0.388000011444,I don't like Japanese comic books
+28,4,1,Learn,Trivia,Trivia,0.188999891281,Sport,Animals,Animals,0.563999891281,N/A,0.266999959946,Only female mosquitoes bite.
+29,2,1,Learn,Trivia,Trivia,0.390000104904,Animals,Geography,Geography,0.572000026703,N/A,0.0210001468658,The total number of steps in the Eiffel Tower are 1665.
+30,1,4,Share,Learn,Learn,0.108999967575,Do you like Japanese comic books (manga),Do you like to exercise,Do you like to exercise,0.603000164032,N/A,0.00699996948242,I absolutely like to exercise
+31,2,2,Share,Learn,Learn,0.066999912262,Do you like to exercise,Do you like swimming,Do you like swimming,0.364000082016,N/A,0.00300002098083,I like swimming
+32,4,1,Share,Trivia,Trivia,0.317000150681,Geography,People,People,0.394999980927,N/A,0.194000005722,An average of 100 people choke to death on ballpoint pens every year.
+33,4,3,Learn,Trivia,Trivia,0.421999931335,People,Film/Movies,Film/Movies,0.809000015259,N/A,0.069000005722,"Courtney Love insists that the role of the drug dealer, Lance, in Pulp Fiction was offered to Kurt Cobain."
+34,3,2,Learn,Trivia,Trivia,0.396999835968,Film/Movies,Culture,Culture,0.634999990463,N/A,0.332999944687,Ronald McDonald is “Donald McDonald” in Japan because it makes pronunciation easier for the Japanese.
+35,2,2,Learn,Trivia,Trivia,0.0949997901917,Culture,Culture,Culture,0.530999898911,N/A,0.294000148773,China has more English speakers than the United States.
+36,2,1,Share,Trivia,Trivia,0.0320000648499,Culture,Culture,Culture,0.582999944687,N/A,0.259999990463,"In Calama, a town in the Atacama Desert of Chile, it has never rained."
+37,1,1,Share,Learn,Learn,0.249000072479,Do you like swimming,Do you belong to a religious body,Do you belong to a religious body,0.549000024796,N/A,0.227999925613,I belong to a religious body
+38,2,2,Share,Trivia,Trivia,0.095999956131,Culture,Geography,Geography,0.644999980927,N/A,0.0319998264313,"Lesotho, San Marino, and Vatican City are the only countries completely landlocked by another country."
+39,3,2,Share,Trivia,Trivia,0.231000185013,Geography,People,People,0.329999923706,N/A,0.0529999732971,The average person walks the equivalent of twice around the world in a lifetime.
+40,3,3,Share,Learn,Learn,0.0679998397827,Do you belong to a religious body,Do you have an iPhone,Do you have an iPhone,0.582000017166,N/A,0.323999881744,I own an iPhone
+41,4,3,Share,Trivia,Trivia,0.287000179291,People,People,People,0.414999961853,N/A,0.0969998836517,Every human spent about half an hour as a single cell.
+42,4,3,Share,Learn,Learn,0.204000234604,Do you have an iPhone,Do you like swimming,Do you like swimming,0.557999849319,N/A,0.0929999351501,I like swimming
+43,4,3,Share,Trivia,Trivia,0.1859998703,People,Science,Science,0.471999883652,N/A,0.210999965668,Paraskavedekatriaphobia is the fear of Friday the 13th.
+44,1,3,Share,Learn,Learn,0.206000089645,Do you like swimming,Do you like going to the movies,Do you like going to the movies,0.526999950409,N/A,0.148000001907,I like going to the movies
+45,4,3,Share,Trivia,Trivia,0.114000082016,Science,Culture,Culture,0.428999900818,N/A,0.222999811172,The Navajo Indian language was used successfully as a code by the US in WWII.
+46,4,1,Learn,Trivia,Trivia,0.0840001106262,Culture,Film/Movies,Film/Movies,0.547999858856,N/A,0.197000026703,"Jim Caviezel was struck by lightening while he was on the cross in, Passion of the Christ."
+47,4,4,Share,Learn,Learn,0.0450000762939,Do you like going to the movies,Do you like camping,Do you like camping,0.447999954224,N/A,0.0739998817444,I like camping
+48,4,3,Share,Trivia,Trivia,0.366999864578,Film/Movies,Animals,Animals,0.43499994278,N/A,0.263000011444,A lion’s roar can be heard from 5 miles away!
+49,4,1,Learn,Trivia,Trivia,0.143999814987,Animals,Culture,Culture,0.499000072479,N/A,0.450000047684,Hewlett-Packard’s name was decided in a coin toss.
+50,2,4,Learn,Trivia,Trivia,0.259000062943,Culture,Geography,Geography,0.469999790192,N/A,0.0320000648499,China and Russia are both bordered by 14 countries.
+51,4,3,Share,Learn,Learn,0.322999954224,Do you like camping,Do you like chocolate,Do you like chocolate,0.390999794006,N/A,0.121999979019,I like chocolate
+52,4,3,Share,Trivia,Trivia,0.0280001163483,Geography,Geography,Geography,0.345999956131,N/A,0.148000001907,Lake Baikal in Siberia/Russia is the world's deepest lake.
+53,3,2,Learn,Trivia,Trivia,0.0360000133514,Geography,Animals,Animals,0.494999885559,N/A,0.104000091553,Billy goats urinate on their own heads to smell more attractive to females.
+54,4,4,Learn,Trivia,Trivia,0.0770001411438,Animals,Geography,Geography,1.05099987984,N/A,0.15499997139,Namibia in Southern Africa is the most sparsely populted country in the world.
+55,3,2,Learn,Trivia,Trivia,12.248000145,Geography,Culture,Geography,0.630000114441,N/A,0.351999998093,Namibia in Southern Africa is the most sparsely populted country in the world.
+56,2,1,Share,Learn,Learn,0.28200006485,Do you like chocolate,Do you like swimming,Do you like chocolate,0.541000127792,N/A,0.198000192642,I like chocolate
+57,4,3,Share,Trivia,Share,0.363999843597,Whether I like trying new foods,Whether I like bicycling,Whether I like bicycling,0.375,2.39957252456,N/A,N/A
+58,3,2,Learn,Trivia,Trivia,0.498999834061,Culture,Film/Movies,Film/Movies,0.546999931335,N/A,0.464999914169,Darth Vader only has 12 minutes of screen time in the original Star Wars.
+59,3,2,Share,Learn,Share,0.1890001297,Whether I like bicycling,Whether I like bugs,Whether I like bugs,0.701000213623,2.63662666166,N/A,N/A
+60,1,1,Share,Trivia,Share,0.298000097275,Whether I like bugs,Whether I have a car,Whether I have a car,0.504999876022,1.83417059645,N/A,N/A
+61,1,1,Learn,Trivia,Trivia,0.401000022888,Film/Movies,Film/Movies,Film/Movies,0.944000005722,N/A,0.206000089645,Paranormal Activity cost $15000 to make and has grossed $210 million so far.
+62,2,4,Share,Trivia,Trivia,0.268000125885,Film/Movies,People,People,0.749000072479,N/A,0.151999950409,"About 8,000 Americans are injured by musical instruments each year."
+63,4,3,Learn,Trivia,Trivia,0.447000026703,People,Animals,People,0.718999862671,N/A,0.411999940872,"About 8,000 Americans are injured by musical instruments each year."
+64,3,3,Share,Learn,Learn,0.760999917984,Do you like swimming,Do you like dessert,Do you like dessert,1.08299994469,N/A,2.59599995613,I like dessert
+65,3,2,Share,Learn,Share,0.447000026703,Whether I have a car,Whether I belong to a religious body,Whether I belong to a religious body,0.963000059128,1.63285156248,N/A,N/A
+66,3,3,Learn,Trivia,Learn,0.24799990654,Do you like dessert,Do you like pop music,Do you like pop music,0.858000040054,N/A,1.70499992371,I like pop music
+67,3,2,Share,Trivia,Share,0.236999988556,Whether I belong to a religious body,How much I love live music,How much I love live music,0.851000070572,2.40514408612,N/A,N/A
+68,4,2,Learn,Trivia,Learn,0.226999998093,Do you like pop music,Do you have a savings account,Do you like pop music,2.492000103,N/A,0.700999975204,I like pop music
+69,3,3,Learn,Trivia,Trivia,0.259999990463,Animals,History,History,0.479000091553,N/A,0.182000160217,Leonardo Da Vinci invented scissors.
+70,1,1,Learn,Trivia,Trivia,0.106000185013,History,People,People,0.608999967575,N/A,0.219000101089,The average woman uses her height in lipstick every 5 years.
+71,3,1,Share,Trivia,Trivia,0.163000106812,People,Film/Movies,Film/Movies,0.479000091553,N/A,0.195999860764,Sean Connery wore a wig in every single one of his Bond performances.
+72,2,1,Learn,Trivia,Trivia,0.138999938965,Film/Movies,History,History,0.484000205994,N/A,0.236999988556,The cigarette lighter was invented before the match.

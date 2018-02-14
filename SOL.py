@@ -113,7 +113,12 @@ global RT2
 global HowLongLearnDelay
 global HowLongToPressReceipt
 global WhatLearnedFactWas
-
+global shareNumber
+global learnNumber
+global triviaNumber
+shareNumber = 1
+learnNumber = 1
+triviaNumber = 1
 
 
 # Variables
@@ -304,6 +309,7 @@ def Share(questionNumber):
     global HowLongLearnDelay
     global HowLongToPressReceipt
     global WhatLearnedFactWas
+    global shareNumber
     WhatLearnedFactWas = "N/A"
     HowLongToPressReceipt = "N/A"
     
@@ -319,12 +325,12 @@ def Share(questionNumber):
     time.sleep(.250)
     shareScreenPrompt.draw()
     blueBubbleLeft.draw()
-    leftBubbleText.text = stim_shareQuestion['ShareQuestion'][questionNumber]        #replace index
+    leftBubbleText.text = stim_shareQuestion['ShareQuestion'][shareNumber]        #replace index
     Share.leftChoice = leftBubbleText.text
     LeftDisplay = Share.leftChoice
     leftBubbleText.draw()
     blueBubbleRight.draw()
-    rightBubbleText.text = stim_shareQuestion['ShareQuestion'][questionNumber+1]        #replace index
+    rightBubbleText.text = stim_shareQuestion['ShareQuestion'][shareNumber+1]        #replace index
     Share.rightChoice = rightBubbleText.text
     RightDisplay = Share.rightChoice
     rightBubbleText.draw()
@@ -342,7 +348,7 @@ def Share(questionNumber):
         WhichSelected2 = Share.leftChoice
         sendingMessage.draw()
         blueBubbleRight.draw()
-        rightBubbleText.text = stim_shareQuestion['ShareQuestion'][questionNumber]        #replace index
+        rightBubbleText.text = stim_shareQuestion['ShareQuestion'][shareNumber]        #replace index
         rightBubbleText.draw()
         leftBubbleText.text = "..."
         leftBubbleText.pos = (-.52, -.3)
@@ -358,7 +364,7 @@ def Share(questionNumber):
         WhichSelected2 = Share.rightChoice
         sendingMessage.draw()
         blueBubbleRight.draw()
-        rightBubbleText.text = stim_shareQuestion['ShareQuestion'][questionNumber+1]        #replace index
+        rightBubbleText.text = stim_shareQuestion['ShareQuestion'][shareNumber+1]        #replace index
         rightBubbleText.draw()
         leftBubbleText.text = "..."
         leftBubbleText.pos = (-.52, -.3)
@@ -377,6 +383,7 @@ def Share(questionNumber):
     checkmarkIcon.draw()
     win.flip()
     time.sleep(1.2)
+    shareNumber = shareNumber+1
 
 
 
@@ -389,6 +396,7 @@ def Learn(questionNumber):
     global HowLongLearnDelay
     global HowLongToPressReceipt
     global WhatLearnedFactWas
+    global learnNumber
     HowLongLearnDelay = "N/A"
     
     leftBubbleText.pos = (-.52, 0)
@@ -402,12 +410,12 @@ def Learn(questionNumber):
     time.sleep(.250)
     learnScreenPrompt.draw()
     blueBubbleLeft.draw()
-    leftBubbleText.text = stim_learn['LearnQuestion'][questionNumber]        #replace index
+    leftBubbleText.text = stim_learn['LearnQuestion'][learnNumber]        #replace index
     Learn.leftChoice = leftBubbleText.text
     LeftDisplay = Learn.leftChoice
     leftBubbleText.draw()
     blueBubbleRight.draw()
-    rightBubbleText.text = stim_learn['LearnQuestion'][questionNumber+1]        #replace index
+    rightBubbleText.text = stim_learn['LearnQuestion'][learnNumber+1]        #replace index
     Learn.rightChoice = rightBubbleText.text
     RightDisplay = Learn.rightChoice
     rightBubbleText.draw()
@@ -425,12 +433,12 @@ def Learn(questionNumber):
         WhichSelected2 = Learn.leftChoice
         sendingMessage.draw()
         blueBubbleRight.draw()
-        rightBubbleText.text = stim_learn['LearnQuestion'][questionNumber]        #replace index
+        rightBubbleText.text = stim_learn['LearnQuestion'][learnNumber]        #replace index
         rightBubbleText.draw()
         win.flip()
         time.sleep(1.5)
         greenBubbleLeft.draw()
-        leftBubbleText.text = stim_learn['LearnFact'][questionNumber]
+        leftBubbleText.text = stim_learn['LearnFact'][learnNumber]
         leftBubbleText.pos = (-.52, -.3)
         leftBubbleText.draw()
         blueBubbleRight.draw()
@@ -441,7 +449,7 @@ def Learn(questionNumber):
         event.waitKeys(keyList = ["space"])
         timer_stop = time.time()
         HowLongToPressReceipt = timer_stop - timer_start
-        WhatLearnedFactWas = stim_learn['LearnFact'][questionNumber]
+        WhatLearnedFactWas = stim_learn['LearnFact'][learnNumber]
         
         
     if "m" in key_press:
@@ -449,14 +457,14 @@ def Learn(questionNumber):
         WhichSelected2 = Learn.rightChoice
         sendingMessage.draw()
         blueBubbleRight.draw()
-        rightBubbleText.text = stim_learn['LearnQuestion'][questionNumber+1]        #replace index
+        rightBubbleText.text = stim_learn['LearnQuestion'][learnNumber+1]        #replace index
         rightBubbleText.draw()
         win.flip()
         time.sleep(1.5)
         greenBubbleLeft.draw()
         blueBubbleRight.draw()
         rightBubbleText.draw()
-        leftBubbleText.text = stim_learn['LearnFact'][questionNumber+1]
+        leftBubbleText.text = stim_learn['LearnFact'][learnNumber+1]
         leftBubbleText.pos = (-.52, -.3)
         leftBubbleText.draw()
         messageReceived.draw()
@@ -465,7 +473,7 @@ def Learn(questionNumber):
         event.waitKeys(keyList = ["space"])
         timer_stop = time.time()
         HowLongToPressReceipt = timer_stop - timer_start
-        WhatLearnedFactWas = stim_learn['LearnFact'][questionNumber+1]
+        WhatLearnedFactWas = stim_learn['LearnFact'][learnNumber+1]
     
     
     greenBubbleLeft.draw()
@@ -478,7 +486,7 @@ def Learn(questionNumber):
     win.flip()
     blueBubbleRight.pos = (.52, 0) #Put blue bubble back in correct place
     time.sleep(1.5)
-    
+    learnNumber = learnNumber+1
 
 #   Trivia Category  #
 def Trivia(questionNumber):
@@ -489,6 +497,8 @@ def Trivia(questionNumber):
     global HowLongLearnDelay
     global HowLongToPressReceipt
     global WhatLearnedFactWas
+    global triviaNumber
+    
     HowLongLearnDelay = "N/A"
     leftBubbleText.pos = (-.52, 0)
     timer_start = time.time()
@@ -496,71 +506,71 @@ def Trivia(questionNumber):
     #Lost connection screen if duplicate trivia categories
     #if stim_trivia['TriviaQuestion'][questionNumber] == stim_trivia['TriviaQuestion'][questionNumber+1]: 
         #Connecting(connectionLost, 2)
-    else:
-        win.setColor((248, 203, 173), 'rgb255')
+    
+    win.setColor((248, 203, 173), 'rgb255')
         
-        win.flip()
-        win.flip()
-        
-        triviaScreenPrompt.draw()
-        win.flip()
-        time.sleep(.250)
-        triviaScreenPrompt.draw()
+    win.flip()
+    win.flip()
+    
+    triviaScreenPrompt.draw()
+    win.flip()
+    time.sleep(.250)
+    triviaScreenPrompt.draw()
 
-        leftBubbleText.text = stim_trivia['TriviaQuestion'][questionNumber]        #replace index
-        Trivia.leftChoice = leftBubbleText.text
-        LeftDisplay = Trivia.leftChoice
-        leftBubbleText.draw()
-        rightBubbleText.text = stim_trivia['TriviaQuestion'][questionNumber+1]        #replace index
-        Trivia.rightChoice = rightBubbleText.text
-        RightDisplay = Trivia.rightChoice
-        rightBubbleText.draw()
+    leftBubbleText.text = stim_trivia['TriviaQuestion'][triviaNumber]        #replace index
+    Trivia.leftChoice = leftBubbleText.text
+    LeftDisplay = Trivia.leftChoice
+    leftBubbleText.draw()
+    rightBubbleText.text = stim_trivia['TriviaQuestion'][triviaNumber+1]        #replace index
+    Trivia.rightChoice = rightBubbleText.text
+    RightDisplay = Trivia.rightChoice
+    rightBubbleText.draw()
+    win.flip()
+        
+        
+    key_press = event.waitKeys(keyList = ["escape","z","m"])
+    timer_stop = time.time()
+    RT2 = timer_stop-timer_start
+        
+    if "escape" in key_press:
+        core.quit()
+        
+    if "z" in key_press:
+        Trivia.selected = "Left"
+        WhichSelected2 = Trivia.leftChoice
+        computerWaiting.draw()
         win.flip()
-        
-        
-        key_press = event.waitKeys(keyList = ["escape","z","m"])
+        time.sleep(.5)
+        triviaText.text = stim_trivia['TriviaFact'][triviaNumber]        #replace index
+        triviaText.draw()
+        headerText.pos = (0, .4)
+        headerText.text = "Press any key to verify message read"
+        headerText.draw()
+        win.flip()
+        timer_start = time.time()
+        event.waitKeys(keyList = ["space"])
         timer_stop = time.time()
-        RT2 = timer_stop-timer_start
-        
-        if "escape" in key_press:
-            core.quit()
+        HowLongToPressReceipt = timer_stop - timer_start
+        WhatLearnedFactWas = stim_trivia['TriviaFact'][triviaNumber]
             
-        if "z" in key_press:
-            Trivia.selected = "Left"
-            WhichSelected2 = Trivia.leftChoice
-            computerWaiting.draw()
-            win.flip()
-            time.sleep(.5)
-            triviaText.text = stim_trivia['TriviaFact'][questionNumber]        #replace index
-            triviaText.draw()
-            headerText.pos = (0, .4)
-            headerText.text = "Press any key to verify message read"
-            headerText.draw()
-            win.flip()
-            timer_start = time.time()
-            event.waitKeys(keyList = ["space"])
-            timer_stop = time.time()
-            HowLongToPressReceipt = timer_stop - timer_start
-            WhatLearnedFactWas = stim_trivia['TriviaFact'][questionNumber]
-            
-        if "m" in key_press:
-            Trivia.selected = "Right"
-            WhichSelected2 = Trivia.rightChoice
-            computerWaiting.draw()
-            win.flip()
-            time.sleep(.5)
-            triviaText.text = stim_trivia['TriviaFact'][questionNumber+1]        #replace index
-            triviaText.draw()
-            headerText.pos = (0, .4)
-            headerText.text = "Press any key to verify message read"
-            headerText.draw()
-            win.flip()
-            time.sleep(.5)
-            timer_start = time.time()
-            event.waitKeys(keyList = ["space"])
-            timer_stop = time.time()
-            HowLongToPressReceipt    = timer_stop - timer_start
-            WhatLearnedFactWas = stim_trivia['TriviaFact'][questionNumber+1]
+    if "m" in key_press:
+        Trivia.selected = "Right"
+        WhichSelected2 = Trivia.rightChoice
+        computerWaiting.draw()
+        win.flip()
+        time.sleep(.5)
+        triviaText.text = stim_trivia['TriviaFact'][triviaNumber+1]        #replace index
+        triviaText.draw()
+        headerText.pos = (0, .4)
+        headerText.text = "Press any key to verify message read"
+        headerText.draw()
+        win.flip()
+        time.sleep(.5)
+        timer_start = time.time()
+        event.waitKeys(keyList = ["space"])
+        timer_stop = time.time()
+        HowLongToPressReceipt    = timer_stop - timer_start
+        WhatLearnedFactWas = stim_trivia['TriviaFact'][triviaNumber+1]
         
         headerText.pos = (0,0)
         headerText.text = "Information Received"
@@ -570,7 +580,7 @@ def Trivia(questionNumber):
         
         
 
-
+    triviaNumber = triviaNumber+1
         #event.waitKeys()
 
 #Break function
@@ -630,7 +640,7 @@ StartTrials()
 #   Begin Trials   #
 trialNumber = 1
 questionNumber = 1
-while (trialNumber < 5): #195
+while (trialNumber < 195): #195
     trial_start = trialTimer.getTime()
     timer.reset()
     event_output = []
@@ -656,7 +666,7 @@ while (trialNumber < 5): #195
     stim_monetaryCombination['RightCategory'][questionNumber], WhichSelected,RT,LeftDisplay,RightDisplay,
     WhichSelected2,RT2,HowLongLearnDelay,HowLongToPressReceipt,WhatLearnedFactWas])
     
-    print run_param_list
+    #print run_param_list
     
     fid = pd.DataFrame(run_param_list, columns = header)
     fid.to_csv(os.path.join(fileLocation, "logFile.csv"), header = True, index = False, encoding = "utf-8")
