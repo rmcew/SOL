@@ -1,0 +1,2 @@
+TrialNumber,LeftAmount,RightAmount,LeftOption,RightOption,WhichSelected,RT,LeftDisplay,RightDisplay,WhichSelected,RT2,HowLongLearnDelay,HowLongToPressReceipt,WhatLearnedFactWas
+1,4,3,Learn,Trivia,Learn,0.228999853134,Do you like Japanese comic books (manga),Do you have hobbies,Do you like Japanese comic books (manga),0.544000148773,N/A,1.33800005913,I don't like Japanese comic books

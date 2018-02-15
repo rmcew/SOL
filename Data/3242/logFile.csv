@@ -1,0 +1,6 @@
+TrialNumber,LeftAmount,RightAmount,LeftOption,RightOption,WhichSelected,RT,LeftDisplay,RightDisplay,WhichSelected,RT2,HowLongLearnDelay,HowLongToPressReceipt,WhatLearnedFactWas
+1,2,1,Share,Learn,Share,0.100000143051,Whether I like painting,Whether I like swimming,Whether I like swimming,0.606000185013,2.88737618054,N/A,N/A
+2,1,4,Share,Trivia,Share,0.269000053406,How much I love live music,Whether I like canoeing,How much I love live music,1.742000103,1.95537917727,N/A,N/A
+3,1,4,Learn,Trivia,Learn,0.456000089645,Do you like bicycling,Do you have hobbies,Do you like bicycling,0.866999864578,N/A,2.64100003242,I like bicycling
+4,3,2,Learn,Trivia,Learn,0.809000015259,Do you have a savings account,Do you have hobbies,Do you have a savings account,0.679000139236,N/A,0.37299990654,I don't have a savings account
+5,4,1,Share,Trivia,Share,0.396999835968,How much I like coffee,Whether I like going to clubs,Whether I like going to clubs,1.43700003624,2.09923021749,N/A,N/A

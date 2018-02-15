@@ -1,0 +1,4 @@
+TrialNumber,LeftAmount,RightAmount,LeftOption,RightOption,WhichSelected,RT,LeftDisplay,RightDisplay,WhichSelected,RT2,HowLongLearnDelay,HowLongToPressReceipt,WhatLearnedFactWas
+1,2,1,Share,Trivia,Share,0.230000019073,Whether I like going to the movies,Whether I have an instagram account,Whether I have an instagram account,0.4359998703,2.56026346218,N/A,N/A
+2,3,1,Share,Trivia,Share,0.279000043869,Whether I have lots of friends,How much I love live music,Whether I have lots of friends,1.54099988937,2.02458040824,N/A,N/A
+3,2,2,Share,Learn,Share,0.306999921799,Whether I like bugs,Whether I have a savings account,Whether I have a savings account,1.48200011253,2.98743705711,N/A,N/A
