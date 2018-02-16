@@ -1,0 +1,6 @@
+TrialNumber,LeftAmount,RightAmount,LeftOption,RightOption,WhichSelected,RT,LeftDisplay,RightDisplay,WhichSelected,RT2,HowLongLearnDelay,HowLongToPressReceipt,WhatLearnedFactWas
+1,1,1,Share,Learn,Share,0.644000053406,Whether I belong to a religious body,Whether I like driving,Whether I belong to a religious body,0.718000173569,2.4824203966,N/A,N/A
+2,4,3,Learn,Trivia,Learn,0.412999868393,Do you like Japanese comic books (manga),Do you like painting,Do you like Japanese comic books (manga),0.398999929428,N/A,0.864000082016,I don't like Japanese comic books
+3,4,3,Share,Trivia,Share,0.299000024796,Whether I like driving,Whether I have a car,Whether I like driving,0.579999923706,1.97556460776,N/A,N/A
+4,2,2,Share,Learn,Share,0.355000019073,Whether I have a car,How much I love live music,Whether I have a car,0.569000005722,1.80327506268,N/A,N/A
+5,4,3,Share,Learn,Share,0.407999992371,How much I love live music,Whether I like swimming,Whether I like swimming,0.559000015259,2.56516385298,N/A,N/A

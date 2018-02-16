@@ -1,0 +1,3 @@
+TrialNumber,LeftAmount,RightAmount,LeftOption,RightOption,WhichSelected,RT,LeftDisplay,RightDisplay,WhichSelected,RT2,HowLongLearnDelay,HowLongToPressReceipt,WhatLearnedFactWas
+1,3,2,Learn,Trivia,Learn,0.31299996376,Do you have an iPhone,Do you like hiking,Do you have an iPhone,0.398000001907,N/A,1.14399981499,I own an iPhone
+2,3,1,Learn,Trivia,Learn,0.300999879837,Do you like hiking,Do you have an iPhone,Do you have an iPhone,0.555000066757,N/A,0.432999849319,I own an iPhone

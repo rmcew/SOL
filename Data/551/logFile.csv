@@ -1,0 +1,5 @@
+TrialNumber,LeftAmount,RightAmount,LeftOption,RightOption,WhichSelected,RT,LeftDisplay,RightDisplay,WhichSelected,RT2,HowLongLearnDelay,HowLongToPressReceipt,WhatLearnedFactWas
+1,1,1,Learn,Trivia,Learn,0.989000082016,Do you like swimming,Do you like dessert,Do you like swimming,0.543999910355,N/A,0.726999998093,I like swimming
+2,3,2,Learn,Trivia,Learn,0.558000087738,Do you like dessert,Do you have an iPhone,Do you have an iPhone,0.553999900818,N/A,0.588999986649,I own an iPhone
+3,4,3,Share,Trivia,Share,0.396999835968,Whether I like building things,Whether I like desserts,Whether I like building things,0.563999891281,2.34221910749,N/A,N/A
+4,4,1,Share,Learn,Share,0.662999868393,Whether I like desserts,How much I like to exercise,How much I like to exercise,0.635999917984,2.9535962116,N/A,N/A

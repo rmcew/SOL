@@ -1,0 +1,6 @@
+TrialNumber,LeftAmount,RightAmount,LeftOption,RightOption,WhichSelected,RT,LeftDisplay,RightDisplay,WhichSelected,RT2,HowLongLearnDelay,HowLongToPressReceipt,WhatLearnedFactWas
+1,4,3,Learn,Trivia,Trivia,2.10600018501,Geography,History,Geography,0.891000032425,N/A,0.457000017166,"Of the 25 highest peaks in the world, 19 are in the Himalayas."
+2,2,1,Learn,Trivia,Trivia,1.24000000954,History,People,People,0.786999940872,N/A,0.010999917984,Ben & Jerry learned how to make ice cream by taking a $5 correspondence course offered by Penn State.
+3,4,4,Share,Trivia,Share,0.47400021553,Whether I have a savings account,Whether I like driving,Whether I have a savings account,0.549999952316,2.44742448491,N/A,N/A
+4,4,1,Learn,Trivia,Learn,1.27300000191,Do you like to exercise,Do you like dessert,Do you like dessert,0.555999994278,N/A,0.498000144958,I like dessert
+5,3,2,Share,Learn,Share,0.513999938965,Whether I like driving,Whether I have an instagram account,Whether I have an instagram account,0.510999917984,2.18264496327,N/A,N/A

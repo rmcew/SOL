@@ -1,0 +1,4 @@
+TrialNumber,LeftAmount,RightAmount,LeftOption,RightOption,WhichSelected,RT,LeftDisplay,RightDisplay,WhichSelected,RT2,HowLongLearnDelay,HowLongToPressReceipt,WhatLearnedFactWas
+1,1,1,Share,Learn,Share,0.357000112534,Whether I like bugs,Whether I like building things,Whether I like bugs,0.664999961853,2.25789145688,N/A,N/A
+2,4,3,Share,Learn,Share,0.491000175476,Whether I like building things,Whether I like painting,Whether I like painting,0.898999929428,2.73530383268,N/A,N/A
+3,4,1,Learn,Trivia,Learn,0.512000083923,Do you have a savings account,Do you like trying new foods,Do you have a savings account,0.723000049591,N/A,0.582000017166,I don't have a savings account

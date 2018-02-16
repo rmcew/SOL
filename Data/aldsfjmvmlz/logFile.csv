@@ -1,0 +1,11 @@
+TrialNumber,LeftAmount,RightAmount,LeftOption,RightOption,WhichSelected,RT,LeftDisplay,RightDisplay,WhichSelected,RT2,HowLongLearnDelay,HowLongToPressReceipt,WhatLearnedFactWas
+1,4,1,Learn,Trivia,Learn,0.62700009346,Do you like painting,Do you have a savings account,Do you like painting,2.70199990273,N/A,0.707999944687,I like painting
+2,2,4,Share,Learn,Share,0.634000062943,Whether I have good eyesight,How much I like coffee,Whether I have good eyesight,0.994000196457,1.79138791198,N/A,N/A
+3,3,1,Learn,Trivia,Learn,0.736999988556,Do you have a car,Do you like building things,Do you like building things,1.07400012016,N/A,0.569999933243,I like building things
+4,4,4,Share,Learn,Share,0.664000034332,Whether I like going to clubs,Whether I like hiking,Whether I like going to clubs,1.93300008774,2.54667788136,N/A,N/A
+5,2,2,Learn,Trivia,Learn,0.512000083923,Do you have good eyesight,Do you have an iPhone,Do you have an iPhone,0.704000234604,N/A,0.463999986649,I own an iPhone
+6,1,4,Share,Learn,Share,0.869999885559,Whether I like tattoos,Whether I own an iPhone,Whether I own an iPhone,0.682999849319,2.3839246403,N/A,N/A
+7,3,3,Learn,Trivia,Trivia,0.879999876022,People,People,People,0.532999992371,N/A,0.501000165939,The average person walks the equivalent of twice around the world in a lifetime.
+8,4,1,Share,Learn,Learn,0.366000175476,Do you like bugs,Do you like to go to clubs,Do you like to go to clubs,0.569999933243,N/A,0.538999795914,I don't like going to clubs
+9,2,1,Share,Learn,Learn,0.555999994278,Do you like bugs,Do you like trying new foods,Do you like bugs,0.766999959946,N/A,0.551999807358,I don't like bugs
+10,2,1,Learn,Trivia,Trivia,0.754999876022,People,Sport,Sport,0.631000041962,N/A,0.0150001049042,The men’s long jump world record has been broken once since 1969.

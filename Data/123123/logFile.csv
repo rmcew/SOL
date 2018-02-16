@@ -1,0 +1,4 @@
+TrialNumber,LeftAmount,RightAmount,LeftOption,RightOption,WhichSelected,RT,LeftDisplay,RightDisplay,WhichSelected,RT2,HowLongLearnDelay,HowLongToPressReceipt,WhatLearnedFactWas
+1,4,3,Share,Trivia,Share,0.410000085831,Whether I like popo music,Whether I like my job,Whether I like popo music,0.667999982834,2.53184318332,N/A,N/A
+2,2,1,Share,Trivia,Share,0.506000041962,Whether I like my job,Whether I like tattoos,Whether I like tattoos,0.589999914169,2.91422760227,N/A,N/A
+3,3,2,Learn,Trivia,Learn,0.878000020981,Do you like to read,Do you like bicycling,Do you like to read,0.380000114441,N/A,1.15799999237,I like to read
