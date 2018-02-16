@@ -687,7 +687,7 @@ while (trialNumber < 195): #195
     fid.to_csv(os.path.join(fileLocation, "logFile.csv"), header = True, index = False, encoding = "utf-8")
     
     trialNumber = trialNumber + 1 
-    questionNumber = questionNumber + 2
+    questionNumber = questionNumber + 1
 
 
 
