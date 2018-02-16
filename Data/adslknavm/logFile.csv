@@ -1,0 +1,98 @@
+TrialNumber,LeftAmount,RightAmount,LeftOption,RightOption,WhichSelected,RT,LeftDisplay,RightDisplay,WhichSelected,RT2,HowLongLearnDelay,HowLongToPressReceipt,WhatLearnedFactWas
+1,4,3,Learn,Trivia,Learn,1.30199980736,Do you have piercings,Do you belong to a religious body,Do you belong to a religious body,0.434000015259,N/A,0.414999961853,I belong to a religious body
+2,4,2,Share,Trivia,Share,0.121000051498,Whether I like my job,Whether I have a car,Whether I have a car,0.417999982834,2.41439982337,N/A,N/A
+3,4,3,Share,Learn,Share,0.332999944687,Whether I like going to clubs,Whether I have good eyesight,Whether I like going to clubs,1.06399989128,1.59563209594,N/A,N/A
+4,4,3,Share,Trivia,Trivia,0.0920000076294,Animals,Geography,Geography,0.475999832153,N/A,0.736000061035,Monaco has the highest population density out of any country.
+5,4,3,Share,Trivia,Trivia,0.0819997787476,Science,Science,Science,0.407999992371,N/A,2.63499999046,Human saliva has a boiling point three times that of regular water.
+6,1,4,Share,Learn,Learn,0.134999990463,Do you have a savings account,Do you like driving,Do you like driving,0.720999956131,N/A,0.557999849319,I like driving
+7,4,2,Learn,Trivia,Trivia,0.203999996185,Culture,Animals,Animals,0.442999839783,N/A,0.746999979019,There is a species of spider called the Hobo Spider.
+8,4,3,Learn,Trivia,Trivia,0.148999929428,Culture,History,History,0.328000068665,N/A,0.0190000534058,"In 1895 Hampshire police handed out the first ever speeding ticket, fining a man for doing 6mph!"
+9,4,3,Share,Learn,Learn,0.181000232697,Do you have an instagram account,Do you like to exercise,Do you like to exercise,1.00600004196,N/A,0.539000034332,I absolutely like to exercise
+10,2,1,Share,Learn,Learn,0.148000001907,Do you like camping,Do you like tattoos,Do you like tattoos,0.618999958038,N/A,0.680000066757,I like tattoos
+11,2,1,Share,Learn,Learn,0.172000169754,Do you like canoeing,Do you like to exercise,Do you like to exercise,0.531999826431,N/A,0.47200012207,I absolutely like to exercise
+12,4,3,Learn,Trivia,Trivia,0.0699999332428,Animals,Animals,Animals,0.345999956131,N/A,0.212000131607,The Weddell seal can travel underwater for seven miles without surfacing for air.
+13,1,4,Share,Learn,Learn,0.193000078201,Do you like swimming,Do you like tattoos,Do you like tattoos,0.513999938965,N/A,0.308000087738,I like tattoos
+14,4,3,Share,Learn,Learn,0.168999910355,Do you like your job,Do you like coffee,Do you like coffee,0.374000072479,N/A,0.433000087738,I absolutely like coffee
+15,1,4,Learn,Trivia,Trivia,0.0640001296997,History,Science,Science,0.427000045776,N/A,0.820999860764,"A ""jiffy"" is an actual unit of time: 1/100th of a second."
+16,4,3,Learn,Trivia,Trivia,0.236000061035,Animals,Culture,Culture,0.462000131607,N/A,0.167000055313,Hewlett-Packard’s name was decided in a coin toss.
+17,3,2,Share,Trivia,Trivia,0.266000032425,Science,Culture,Culture,0.96599984169,N/A,0.290999889374,"Every day, Americans eat an estimated 18 acres of pizza."
+18,3,2,Learn,Trivia,Trivia,0.24599981308,Science,Film/Movies,Film/Movies,0.515000104904,N/A,0.153000116348,Paranormal Activity cost $15000 to make and has grossed $210 million so far.
+19,4,1,Share,Trivia,Trivia,0.163000106812,Animals,Film/Movies,Film/Movies,0.721999883652,N/A,0.0750000476837,Some Wookie suits were made from human hair.
+20,4,3,Learn,Trivia,Trivia,0.259999990463,Animals,Film/Movies,Film/Movies,0.729000091553,N/A,0.195000171661,Alfred Hitchcock came under CIA sureveillance for his use of uranium as a plot element in Notorious.
+21,2,1,Share,Trivia,Trivia,0.210000038147,People,Animals,Animals,0.743000030518,N/A,0.353999853134,"In total, there are 205 bones in the skeleton of a horse."
+22,1,1,Share,Learn,Learn,0.226999998093,Do you have an instagram account,Do you like dessert,Do you like dessert,0.753999948502,N/A,0.618000030518,I like dessert
+23,4,1,Learn,Trivia,Trivia,0.118999958038,History,People,People,0.613000154495,N/A,0.0679998397827,"In Uganda, 50% of the population is under 15 years of age."
+24,4,4,Share,Trivia,Trivia,0.348000049591,Animals,Geography,Geography,0.81500005722,N/A,0.0719997882843,The Sargasso Sea is the only sea with no coast.
+25,1,4,Learn,Trivia,Trivia,0.299999952316,History,Animals,Animals,0.546999931335,N/A,0.385999917984,Penguins can jump as high as six feet in the air.
+26,4,2,Share,Learn,Learn,0.232000112534,Do you like body piercings,Do you have hobbies,Do you have hobbies,0.473999977112,N/A,0.700000047684,I have many hobbies
+27,3,2,Share,Learn,Learn,0.0840001106262,Do you have piercings,Do you have piercings,Do you have piercings,0.884000062943,N/A,0.486999988556,I don't have piercings
+28,3,2,Share,Trivia,Trivia,0.161000013351,Animals,People,People,0.385999917984,N/A,0.0720000267029,"in 2015, more people were killed from injuries caused by taking a selfie than by shark attacks."
+29,4,1,Share,Learn,Learn,0.210999965668,Do you like Japanese comic books (manga),Do you have good eyesight,Do you have good eyesight,0.68799996376,N/A,0.384000062943,I have good eyesight
+30,2,4,Share,Learn,Learn,0.152000188828,Do you have an iPhone,Do you like cooking,Do you like cooking,0.518999814987,N/A,0.582000017166,I absolutely like cooking
+31,4,4,Share,Learn,Learn,0.191999912262,Do you like canoeing,Do you like to exercise,Do you like canoeing,0.546000003815,N/A,0.0939998626709,I like canoeing
+32,2,1,Share,Learn,Share,0.18799996376,How much I like cooking,Whether I like hiking,How much I like cooking,0.564999818802,2.33654843366,N/A,N/A
+33,2,2,Share,Trivia,Share,0.399999856949,Whether I have hobbies,Whether I like camping,Whether I have hobbies,0.65499997139,2.03885236071,N/A,N/A
+34,4,3,Learn,Trivia,Trivia,0.141999959946,Science,Animals,Animals,0.540999889374,N/A,0.34700012207,Catfish are the only animals that naturally have an odd number of whiskers.
+35,1,4,Share,Trivia,Trivia,0.105999946594,Sport,People,People,0.650000095367,N/A,0.206000089645,"Each year, there are more than 40,000 toilet related injuries in the United States."
+36,3,1,Share,Trivia,Trivia,0.134999990463,Animals,Animals,Animals,0.602999925613,N/A,0.40299987793,Slugs have four noses.
+37,3,2,Learn,Trivia,Trivia,0.240999937057,Film/Movies,Animals,Animals,0.8140001297,N/A,0.0269999504089,A flock of crows is known as a murder.
+38,1,3,Share,Learn,Learn,0.212000131607,Do you have an iPhone,Do you like chocolate,Do you like chocolate,0.742000102997,N/A,0.327000141144,I like chocolate
+39,3,2,Learn,Trivia,Trivia,0.0980000495911,History,Culture,Culture,0.585000038147,N/A,0.0989999771118,The Vatican Bank is the world's only bank that allows ATM users to perform transactions in Latin.
+40,3,1,Share,Learn,Learn,0.0209999084473,Do you have an iPhone,Do you like pop music,Do you like pop music,0.84600019455,N/A,0.707000017166,I like pop music
+41,3,2,Share,Trivia,Trivia,0.144999980927,Animals,Film/Movies,Film/Movies,0.653000116348,N/A,0.156000137329,"The first animated film to be nominated for an Oscar for best picture was Disney's ""Beauty and the Beast""."
+42,4,1,Learn,Trivia,Trivia,0.319000005722,Animals,Film/Movies,Film/Movies,0.691999912262,N/A,0.0139999389648,"Jim Caviezel was struck by lightening while he was on the cross in, Passion of the Christ."
+43,3,2,Share,Learn,Learn,0.258999824524,Do you like bicycling,Do you belong to a religious body,Do you belong to a religious body,0.764999866486,N/A,0.585000038147,I belong to a religious body
+44,2,4,Share,Learn,Learn,0.199000120163,Do you like Japanese comic books (manga),Do you like to exercise,Do you like to exercise,0.701000213623,N/A,0.645999908447,I absolutely like to exercise
+45,1,4,Share,Learn,Learn,0.463000059128,Do you like dessert,Do you like coffee,Do you like coffee,0.661000013351,N/A,0.494999885559,I absolutely like coffee
+46,4,1,Learn,Trivia,Trivia,0.272000074387,History,Science,Science,0.746000051498,N/A,0.108999967575,Bananas are curved because they grow towards the sun.
+47,2,1,Learn,Trivia,Trivia,0.259999990463,History,Animals,Animals,0.473000049591,N/A,0.0200002193451,Most elephants weigh less than the tongue of the blue whale.
+48,4,3,Share,Learn,Learn,0.308000087738,Do you have good eyesight,Do you like painting,Do you like painting,0.501999855042,N/A,1.31599998474,I like painting
+49,1,4,Learn,Trivia,Trivia,0.121999979019,History,Animals,Animals,0.717000007629,N/A,0.585000038147,In the Caribbean there are oysters that can climb trees.
+50,1,1,Share,Trivia,Trivia,0.667000055313,Animals,Culture,Culture,1.70499992371,N/A,1.17700004578,About 80 percent of the world’s Indigenous people live in Asia and South East Asia.
+51,1,4,Share,Trivia,Trivia,0.209999799728,Animals,History,History,0.371999979019,N/A,0.266999959946,Donald Duck comics were banned from libraries in Finland because he doesn't wear pants.
+52,3,3,Learn,Trivia,Trivia,0.350999832153,Culture,Film/Movies,Culture,16.754999876,N/A,0.903000116348,The White House had a telephone before it had an indoor bathroom
+53,2,1,Learn,Trivia,Trivia,1.35400009155,People,History,History,0.806999921799,N/A,0.231999874115,The Titanic was the first ship to use the SOS signal.
+54,4,1,Share,Trivia,Trivia,0.228999853134,Animals,Animals,Animals,0.490999937057,N/A,0.243999958038,The most venomous jellyfish in the world is named the Irukandji and is smaller than your fingernail.
+55,2,1,Learn,Trivia,Trivia,0.15700006485,Science,Film/Movies,Film/Movies,0.46799993515,N/A,2.01300001144,"Reserves from the Irish Army were used as extras in the movie ""Braveheart""."
+56,4,1,Share,Learn,Learn,0.27999997139,Do you like painting,Do you have an instagram account,Do you like painting,0.990000009537,N/A,0.549999952316,I like painting
+57,1,4,Share,Learn,Share,0.0499999523163,How much I like coffee,Whether I like canoeing,Whether I like canoeing,1.01600003242,2.91352937361,N/A,N/A
+58,1,3,Learn,Trivia,Learn,0.536000013351,Do you like coffee,Do you like cooking,Do you like cooking,14.7869999409,N/A,1.59299993515,I absolutely like cooking
+59,3,2,Learn,Trivia,Trivia,1.882999897,People,History,History,0.844000101089,N/A,0.113000154495,The cigarette lighter was invented before the match.
+60,3,2,Share,Learn,Learn,0.516000032425,Do you like hiking,Do you like building things,Do you like building things,1.06999993324,N/A,1.20399999619,I like building things
+61,2,1,Share,Trivia,Trivia,0.407999992371,People,Animals,Animals,15.6370000839,N/A,0.213999986649,Polar bears can eat as many as 86 penguins in a single sitting. (If they lived in the same place)
+62,4,2,Share,Trivia,Share,0.254999876022,Whether I have piercings,Whether I like Japanese comic books,Whether I have piercings,0.846999883652,2.57872557955,N/A,N/A
+63,4,3,Share,Trivia,Trivia,0.296000003815,Animals,History,History,0.953999996185,N/A,1.48099994659,The inventor of the Waffle Iron did not like waffles.
+64,3,2,Learn,Trivia,Learn,0.616000175476,Do you like live music,Do you have a savings account,Do you have a savings account,0.855999946594,N/A,1.34500002861,I don't have a savings account
+65,4,3,Share,Trivia,Trivia,0.523000001907,Geography,Geography,Geography,0.851000070572,N/A,0.0600001811981,Angel Falls in Venezuela is the world's highest waterfall.
+66,4,2,Share,Learn,Learn,0.252999782562,Do you like swimming,Do you like bugs,Do you like swimming,0.771999835968,N/A,0.450999975204,I like swimming
+67,1,1,Share,Trivia,Trivia,0.28200006485,Culture,Film/Movies,Culture,0.770999908447,N/A,0.536000013351,California has issued 6 drivers licenses to people named Jesus Christ.
+68,3,3,Share,Trivia,Trivia,0.308000087738,History,Animals,Animals,0.585000038147,N/A,0.267999887466,There has never been a verified snow leopard attack on a human being.
+69,4,3,Learn,Trivia,Trivia,0.211999893188,Film/Movies,Animals,Animals,1.00499987602,N/A,0.121999979019,Only female mosquitoes bite.
+70,3,1,Share,Learn,Learn,0.206000089645,Do you like bugs,Do you like trying new foods,Do you like trying new foods,0.444999933243,N/A,0.121000051498,I like trying new foods
+71,2,2,Learn,Trivia,Trivia,0.25,Animals,Sport,Sport,0.717000007629,N/A,0.202999830246,The official state sport of Alaska is dog mushing.
+72,2,2,Learn,Trivia,Trivia,0.193000078201,Film/Movies,Film/Movies,Film/Movies,0.786000013351,N/A,0.305999994278,"Barbie in Toy Story is voiced by Jodi Benson, best known for her role as Ariel in The Little Mermaid."
+73,4,3,Share,Learn,Share,0.384999990463,Whether I have a savings account,Whether I like painting,Whether I like painting,0.352999925613,2.00605961614,N/A,N/A
+74,4,4,Share,Trivia,Trivia,0.209999799728,Animals,Geography,Geography,0.759999990463,N/A,0.167999982834,Antartica is home to almost all of the world's freshwater.
+75,2,2,Learn,Trivia,Trivia,0.422000169754,Geography,Film/Movies,Film/Movies,0.843000173569,N/A,0.529000043869,Darth Vader only has 12 minutes of screen time in the original Star Wars.
+76,4,4,Learn,Trivia,Trivia,0.862999916077,People,Culture,Culture,0.899999856949,N/A,0.228000164032,"In Calama, a town in the Atacama Desert of Chile, it has never rained."
+77,4,4,Share,Learn,Learn,9.41900014877,Do you like pop music,Do you like chocolate,Do you like chocolate,0.625,N/A,0.585999965668,I like chocolate
+78,4,4,Learn,Trivia,Trivia,0.233999967575,People,Animals,People,0.848000049591,N/A,0.329999923706,Ben & Jerry learned how to make ice cream by taking a $5 correspondence course offered by Penn State.
+79,1,1,Share,Trivia,Trivia,0.421000003815,Animals,Science,Science,0.34299993515,N/A,0.473999977112,"The star Antares is 60,000 times larger than our sun."
+80,3,1,Learn,Trivia,Trivia,0.320999860764,Culture,Animals,Animals,0.427000045776,N/A,0.293999910355,Slugs have 4 noses.
+81,2,2,Share,Learn,Learn,0.526999950409,Do you like your job,Do you have a savings account,Do you have a savings account,0.840000152588,N/A,1.13899993896,I don't have a savings account
+82,4,1,Share,Trivia,Trivia,0.392000198364,People,Animals,Animals,1.05599999428,N/A,0.81600022316,An eagle can kill a young deer and fly away with it.
+83,3,3,Learn,Trivia,Trivia,0.479000091553,Film/Movies,History,History,3.41400003433,N/A,0.610000133514,The first alarm clock could only ring at 4am.
+84,3,1,Share,Trivia,Trivia,2.70700001717,Film/Movies,Science,Science,0.507999897003,N/A,1.257999897,Banging your head against a wall burns 150 calories an hour.
+85,1,3,Share,Learn,Learn,0.40499997139,Do you like going to the movies,Do you have lots of friends,Do you like going to the movies,0.339999914169,N/A,0.391999959946,I like going to the movies
+86,4,3,Share,Trivia,Trivia,0.263000011444,Animals,History,History,0.789999961853,N/A,1.14499998093,Leonardo Da Vinci invented scissors.
+87,4,3,Share,Learn,Learn,0.181999921799,Do you like to go to clubs,Do you like bicycling,Do you like bicycling,0.829999923706,N/A,0.5640001297,I like bicycling
+88,1,1,Learn,Trivia,Trivia,0.346999883652,Animals,Animals,Animals,0.811999797821,N/A,0.401999950409,An eagle can kill a young deer and fly carrying it.
+89,4,1,Share,Learn,Learn,0.192999839783,Do you have lots of friends,Do you have good eyesight,Do you have good eyesight,0.889999866486,N/A,0.392999887466,I have good eyesight
+90,4,3,Share,Trivia,Trivia,0.243000030518,Culture,Animals,Culture,0.557999849319,N/A,0.326000213623,There are no clocks in Las Vegas casinos.
+91,4,3,Share,Trivia,Trivia,0.343000173569,Animals,Animals,Animals,0.614000082016,N/A,0.333999872208,A crocodile cannot stick its tongue out.
+92,4,4,Share,Learn,Learn,0.502999782562,Do you have good eyesight,Do you like dessert,Do you like dessert,0.393999814987,N/A,0.361999988556,I like dessert
+93,4,1,Share,Learn,Learn,0.412000179291,Do you like to exercise,Do you like bugs,Do you like bugs,0.457000017166,N/A,0.40700006485,I don't like bugs
+94,4,4,Learn,Trivia,Trivia,0.31500005722,People,Geography,People,0.694000005722,N/A,0.378000020981,Every year more than 2500 left-handed people are killed from using right-handed products.
+95,2,4,Learn,Trivia,Trivia,0.505999803543,People,Geography,Geography,0.694000005722,N/A,0.795000076294,Lake Baikal in Siberia/Russia is the world's deepest lake.
+96,2,4,Learn,Trivia,Trivia,0.263999938965,Animals,Science,Science,0.427000045776,N/A,0.055999994278,Paraskavedekatriaphobia is the fear of Friday the 13th.
+97,3,2,Share,Trivia,Trivia,0.266000032425,People,People,People,0.323999881744,N/A,0.269000053406,"About 8,000 Americans are injured by musical instruments each year."

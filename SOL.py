@@ -168,7 +168,6 @@ header = ['TrialNumber','LeftAmount','RightAmount','LeftOption','RightOption','W
 def RemoveUsedItem(dataframe, index):
     newDataframe = dataframe.drop(index, inplace = True)
     newDataframe = dataframe.sample(frac=1).reset_index(drop=True)
-    print dataframe
     return newDataframe
     
     
@@ -324,7 +323,6 @@ def Share(questionNumber):
     #Put text back in the right place
     leftBubbleText.pos = (-.52, 0)
     
-    print stim_shareQuestion
 
     
     win.setColor((218, 227, 245), 'rgb255')
